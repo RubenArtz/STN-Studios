@@ -1,0 +1,165 @@
+#                     ___         ___
+#      _____         /\  \       /\__\
+#     /::\  \       /::\  \     /:/ _/_
+#    /:/\:\  \     /:/\:\__\   /:/ /\  \
+#   /:/ /::\__\   /:/ /:/  /  /:/ /::\  \
+#  /:/_/:/\:|__| /:/_/:/  /  /:/_/:/\:\__\
+#  \:\/:/ /:/  / \:\/:/  /   \:\/:/ /:/  /
+#   \::/_/:/  /   \::/__/     \::/ /:/  /
+#    \:\/:/  /     \:\  \      \/_/:/  /
+#     \::/  /       \:\__\       /:/  /
+#      \/__/         \/__/       \/__/
+
+# Variables: these variables can be used in the command section.
+#
+#            {Player} ↪ Player name
+#            {Uuid} ↪ Player uuid
+
+SWEAR:
+  SETTINGS:
+    AVATAR_URL:
+      - 'https://minotar.net/helm/{Player}/8.png'
+      - 'https://cravatar.eu/helmavatar/{Player}/8.png'
+      - 'https://mc-heads.net/avatar/{Player}/8'
+    # Enable or disable all those settings!
+    USE_BAD_WORDS: true
+    # Send a sound when the player says a bad word
+    # Does not work in bungeecord
+    USE_SOUND_BLOCK: true
+    # Send a message when the player says a bad word
+    USE_BLOCK_MESSAGE: true
+    # This only works in 1.9x - 1.14x, because they are in 'false' does not support 1.8.8
+    # Does not work in bungeecord
+    USE_BLOCK_BOSSBAR: true
+    # This is disabled because it does not work in the versions (1.8.8x - 1.9x)
+    # However if you use the versions (1.10x - 1.14x) it will work perfectly.
+    # Does not work in bungeecord
+    USE_BLOCK_EFFECTS: true
+    # Send a command to the console when the player says a bad word
+    USE_BLOCK_COMMAND: false
+    # Send an action bar when the player says a bad word
+    USE_SOUND_ACTIONBAR: true
+  WORDS:
+    BLACKLISTED_WORDS:
+      - 'fuck'
+      - 'shit'
+      - 'dick'
+      - 'dik'
+      - 'dic'
+      - 'arse'
+      - 'ass'
+      - 'pussy'
+      - 'penis'
+      - 'vagina'
+      - 'wank'
+      - 'nigga'
+      - 'nigger'
+      - 'cunt'
+      - 'cock'
+      - 'bastard'
+      - 'bitch'
+      - 'sex'
+      - 'nob'
+      - 'mcstorm'
+  LOCK_WORD:
+    # Does not work in bungeecord
+    SOUND: 'VILLAGER_NO; 10.0f; 10.0f'
+    COMMAND:
+      - 'tempmute {Player} 5 m &cYou can not say this word.'
+    MESSAGE:
+      - ''
+      - '<center>&c&l¡WARNING!</center>'
+      - ''
+      - '<center>&cYou just wrote a bad word</center>'
+      - '<center>&cthe nearest staff is notified!</center>'
+      - ''
+      - '<center>&eCopyright © 2020</center>'
+      - ''
+    # Does not work in bungeecord
+    EFFECTS:
+      - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+      - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+      - 'NOTE;60;2.0;2.0;2.0;2.0'
+      - 'MOB_APPEARANCE;50;2.0;2.0;2.0;2.0'
+    BOSSBAR: '&c&o (( Moderate your language ))'
+    ACTIONBAR: '&c&o (( Moderate your language ))'
+  NOTIFICATION:
+    SETTINGS:
+      AVATAR_URL:
+        - 'https://minotar.net/helm/{Player}/8.png'
+        - 'https://cravatar.eu/helmavatar/{Player}/8.png'
+        - 'https://mc-heads.net/avatar/{Player}/8'
+      # Does not work in bungeecord
+      USE_NOTIFY_SOUND: true
+      # Does not work in bungeecord
+      USE_NOTIFY_EFFECTS: true
+    STAFF:
+      # Does not work in bungeecord
+      SOUND: 'EXPLODE; 10.0f; 10.0f'
+      MESSAGE:
+        - ''
+        - '<center>&a&lNOTIFICATION!</center>'
+        - ''
+        - '<center>&7Player &9{Player} &7wrote a bad word</center>'
+        - "<center>&7Word &9'{Word}' &7was blocked!</center>"
+        - ''
+        - '<center>&eCopyright © 2020</center>'
+        - ''
+      # Does not work in bungeecord
+      EFFECTS:
+        - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+        - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+CHAT_CONTROL:
+  CHAT_TIME:
+    ENABLED_TIME_CHAT: true
+    TIME_CHAT: 3
+    CHAT_URL:
+      - 'https://minotar.net/helm/{Player}/8.png'
+      - 'https://cravatar.eu/helmavatar/{Player}/8.png'
+      - 'https://mc-heads.net/avatar/{Player}/8'
+    SOUND: 'VILLAGER_NO; 10.0f; 10.0f'
+    CHAT_TIME_MESSAGE:
+      - ''
+      - '<center>&f&l** &e&lWARNING &6{Player} &f**</center>'
+      - ''
+      - '<center>&cYou must wait {Time} seconds</center>'
+      - '<center>&cto send another message!</center>'
+      - ''
+      - '<center>&eCopyright © 2020</center>'
+      - ''
+  ADVERTISING:
+    ENABLED: true
+    AVATAR_PLAYER:
+      URL:
+        - 'https://minotar.net/helm/{Player}/8.png'
+        - 'https://cravatar.eu/helmavatar/{Player}/8.png'
+        - 'https://mc-heads.net/avatar/{Player}/8'
+      SOUND: 'VILLAGER_NO; 10.0f; 10.0f'
+      MESSAGE:
+        - ''
+        - '<center>&f&l** &e&lWARNING &6{Player} &f**</center>'
+        - ''
+        - '<center>&cThis server does not support advertising</center>'
+        - '&f         &c{AD}'
+        - '<center>&cIt has been automatically locked!</center>'
+        - ''
+        - '<center>&eCopyright © 2020</center>'
+    ADVERTISING_STRING:
+      - (http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}( ?\. ?| ?\(?dot\)? ?)[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)
+      - ^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$
+      - ^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]):[0-9]+$
+  ON_CAPS_CHAT:
+    ON_CAPS_ENABLED: true
+    CAPS_AMOUNT: 3
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
