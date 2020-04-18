@@ -28,7 +28,7 @@ MESSAGE_USING_ACTIONBAR: '&cCliquez sur le message'
 MESSAGE_USE_SEARCH: '&7Rechercher dans la base de données'
 MESSAGE_USE_SEARCH_BOX: '&f &8▪ &fRechercher dans la base de données'
 MESSAGE_OLD_VER: '&fVous avez une ancienne version du plugin. Vous utilisez'
-MESSAGE_OLD_NEW: '&fla version &e<old>&f, version disponible &e<new>&f, &9https://www.mc-market.org/resources/10235/     &9https://www.spigotmc.org/resources/67158/'
+MESSAGE_OLD_NEW: '&fla version &e<old>&f, version disponible &e<new>'
 MESSAGE_UPDATE_TITLE:
   - '&8[&9BPS-Premium&8];&fAncienne version &e<old> &fNouvelle version &e<new>'
 MESSAGE_UPDATE_ACTIONBAR: '&cTéléchargez la dernière version &e<new>'
