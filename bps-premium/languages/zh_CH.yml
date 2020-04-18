@@ -1,0 +1,80 @@
+#                     ___         ___
+#      _____         /\  \       /\__\
+#     /::\  \       /::\  \     /:/ _/_
+#    /:/\:\  \     /:/\:\__\   /:/ /\  \
+#   /:/ /::\__\   /:/ /:/  /  /:/ /::\  \
+#  /:/_/:/\:|__| /:/_/:/  /  /:/_/:/\:\__\
+#  \:\/:/ /:/  / \:\/:/  /   \:\/:/ /:/  /
+#   \::/_/:/  /   \::/__/     \::/ /:/  /
+#    \:\/:/  /     \:\  \      \/_/:/  /
+#     \::/  /       \:\__\       /:/  /
+#      \/__/         \/__/       \/__/
+
+# ===================
+# Language: Chinese =
+# By: Ruben_Artz    =
+# ===================
+
+MESSAGE_TIP: '&9小費&f, 將光標放在消息中，然後單擊以選中。'
+MESSAGE_RELOAD: '&7加載插件配置。'
+MESSAGE_RELOAD_BOX: '&f &8▪ &f加載插件配置。'
+MESSAGE_HELP: '&7請參閱可用的命令。'
+MESSAGE_HELP_BOX: '&f &8▪ &f單擊以查看命令。'
+MESSAGE_OTHER: '&7使用這兩個命令查看配置。'
+MESSAGE_OTHER_BOX: '&f &8▪ &f開始下載。'
+MESSAGE_USING: '&c這個服務器正在使用 BPS-Premium <ver>'
+MESSAGE_USING_BOX: '&f &8▪ &f單擊以查看命令。'
+MESSAGE_USING_ACTIONBAR: '&c單擊該消息'
+MESSAGE_USE_SEARCH: '&7搜索數據庫'
+MESSAGE_USE_SEARCH_BOX: '&f &8▪ &f搜索數據庫'
+MESSAGE_OLD_VER: '&f你有一個舊版本的插件。 你是'
+MESSAGE_OLD_NEW: '&f運用 &e<old>&f, 可用版本 &e<new>&f, &9https://www.mc-market.org/resources/10235/     &9https://www.spigotmc.org/resources/67158/'
+MESSAGE_UPDATE_TITLE:
+  - '&8[&9BPS-Premium&8];&f舊版 &e<old> &f新版本 &e<new>'
+MESSAGE_UPDATE_ACTIONBAR: '&c下載最新版本 &e<new>'
+MESSAGE_UPDATE_BOSSBAR: '&f舊版 &e<old> &f新版本 &e<new>'
+MESSAGE_GUI: '&7從gui配置插件。'
+MESSAGE_GUI_BOX: '&f &8▪ &f點擊打開gui。'
+MESSAGE_RELOAD_CONFIGS: '&a該 %File 文件被重新加載！'
+MESSAGE_FILE_NOT_FOUND: '&c帶有名字的文件 %File 未找到！'
+MESSAGE_SEARCH: '&cUse: /bps search <player> <page> #搜索數據庫'
+MESSAGE_ANTI_BOT: '&c它可能是一個機器人！'
+MESSAGE_ATTACK_BOT: '&c檢測到機器人攻擊了！'
+MESSAGE_BOT_MILLISECONDS: '&c率: {Seconds} 毫秒'
+MESSAGE_DISABLE_BOT_FILTER: '&c已減少，禁用機器人過濾器...'
+COMMANDS:
+  MESSAGE_RELOAD_TITLE:
+    - '<exclusive>;&7(( 重新啟動所有配置。 ))'
+  MESSAGE_RELOAD_SUCCESS:
+    - '&a充電插件......'
+    - '&a插件正確加載！'
+  MESSAGE_RELOAD_ACTIONBAR: '&a(( 重新啟動所有配置。 ))'
+  AVATAR_URL:
+    - 'https://minotar.net/helm/{Player}/8.png'
+    - 'https://cravatar.eu/helmavatar/{Player}/8.png'
+    - 'https://mc-heads.net/avatar/{Player}/8'
+  PLAYER_MSG:
+    - ''
+    - '<center>&a&l通知！</center>'
+    - ''
+    - '<center>&7遊戲玩家 &9{Player} &7試圖執行</center>'
+    - "<center>&7指揮部 &9'{Cmd}' &7它被鎖定了！</center>"
+    - ''
+    - '<center>&e著作權 © 2020</center>'
+    - ''
+MESSAGE_CRASH: '&c有一個我們無法解決的問題...'
+MESSAGE_ITEMS: '&c發現並刪除了非法物品！'
+MESSAGE_CANCELLED_VPN: '&c{Player}嘗試連接VPN。 連接已取消。'
+MESSAGE_FRAUD_SCORE: '&c{Player} 試圖以較高的欺詐分數建立聯繫。 連接已取消。'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
