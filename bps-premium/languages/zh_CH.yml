@@ -28,7 +28,7 @@ MESSAGE_USING_ACTIONBAR: '&c單擊該消息'
 MESSAGE_USE_SEARCH: '&7搜索數據庫'
 MESSAGE_USE_SEARCH_BOX: '&f &8▪ &f搜索數據庫'
 MESSAGE_OLD_VER: '&f你有一個舊版本的插件。 你是'
-MESSAGE_OLD_NEW: '&f運用 &e<old>&f, 可用版本 &e<new>&f, &9https://www.mc-market.org/resources/10235/     &9https://www.spigotmc.org/resources/67158/'
+MESSAGE_OLD_NEW: '&f運用 &e<old>&f, 可用版本 &e<new>'
 MESSAGE_UPDATE_TITLE:
   - '&8[&9BPS-Premium&8];&f舊版 &e<old> &f新版本 &e<new>'
 MESSAGE_UPDATE_ACTIONBAR: '&c下載最新版本 &e<new>'
