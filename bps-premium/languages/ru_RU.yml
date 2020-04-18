@@ -1,0 +1,80 @@
+#                     ___         ___
+#      _____         /\  \       /\__\
+#     /::\  \       /::\  \     /:/ _/_
+#    /:/\:\  \     /:/\:\__\   /:/ /\  \
+#   /:/ /::\__\   /:/ /:/  /  /:/ /::\  \
+#  /:/_/:/\:|__| /:/_/:/  /  /:/_/:/\:\__\
+#  \:\/:/ /:/  / \:\/:/  /   \:\/:/ /:/  /
+#   \::/_/:/  /   \::/__/     \::/ /:/  /
+#    \:\/:/  /     \:\  \      \/_/:/  /
+#     \::/  /       \:\__\       /:/  /
+#      \/__/         \/__/       \/__/
+
+# ===================
+# Language: Russian =
+# By: CXMorgan      =
+# ===================
+
+MESSAGE_TIP: '&9ПОДСКАЗКА&f, Наведите на сообщение и кликните по нему, чтобы выполнить команду.'
+MESSAGE_RELOAD: '&7Загрузка конфигурации плагина.'
+MESSAGE_RELOAD_BOX: '&f &8▪ &fПлагин загружается...'
+MESSAGE_HELP: '&7Показать доступные команды.'
+MESSAGE_HELP_BOX: '&f &8▪ &fНажми,чтобы увидеть команды.'
+MESSAGE_OTHER: '&7Используйте эти две команды для отображения &7конфигурации.'
+MESSAGE_OTHER_BOX: '&f &8▪ &fНачать загрузку.'
+MESSAGE_USING: '&cЭтот сервер использует BPS версии <ver>'
+MESSAGE_USING_BOX: '&f &8▪ &fНажмите, чтобы увидеть команды.'
+MESSAGE_USING_ACTIONBAR: '&cНажмите на сообщение'
+MESSAGE_USE_SEARCH: '&7Поиск в базе данных.'
+MESSAGE_USE_SEARCH_BOX: '&f &8▪ &fПроизводится поиск...'
+MESSAGE_OLD_VER: '&fВы используете устаревшую версию плагина! Установлена'
+MESSAGE_OLD_NEW: '&fверсия - &e<old>&f, доступна для скачивания - &e<new>&f'
+MESSAGE_UPDATE_TITLE:
+  - '&8[&9BPS-Premium&8];&fИспользуемая версия -  &e<old> &fДоступная версия - &e<new>'
+MESSAGE_UPDATE_ACTIONBAR: '&cЗагрузите новую версию - &e<new>'
+MESSAGE_UPDATE_BOSSBAR: '&fИспользуемая версия -  &e<old> &fДоступная версия - &e<new>'
+MESSAGE_GUI: '&7Настройте плагин через GUI.'
+MESSAGE_GUI_BOX: '&f &8▪ &fНажмите,чтобы открыть GUI.'
+MESSAGE_RELOAD_CONFIGS: '&aФайл %File был перезагружен!'
+MESSAGE_FILE_NOT_FOUND: '&cФайл с названием %File не существует!'
+MESSAGE_SEARCH: '&cИспользуйте: /bps search <player> <page> #Для поиска в базе'
+MESSAGE_ANTI_BOT: '&cСкорее всего это бот!'
+MESSAGE_ATTACK_BOT: '&cОбнаружена бот атака!'
+MESSAGE_BOT_MILLISECONDS: '&cЗадержка: {Seconds} милисекунд'
+MESSAGE_DISABLE_BOT_FILTER: '&cбыла снижена, бо -фильтр отключается...'
+COMMANDS:
+  MESSAGE_RELOAD_TITLE:
+    - '<exclusive>;&7(( Перезагрузка всех конфигураций. ))'
+  MESSAGE_RELOAD_SUCCESS:
+    - '&aПерезапуск плагина ...'
+    - '&aПлагин успешно загружен!'
+  MESSAGE_RELOAD_ACTIONBAR: '&a(( Перезагрузка всех конфигураций. ))'
+  AVATAR_URL:
+    - 'https://minotar.net/helm/{Player}/8.png'
+    - 'https://cravatar.eu/helmavatar/{Player}/8.png'
+    - 'https://mc-heads.net/avatar/{Player}/8'
+  PLAYER_MSG:
+    - ''
+    - '<center>&a&lУведомление!</center>'
+    - ''
+    - '<center>&7Игрок &9{Player} &7попытался выполнить</center>'
+    - "<center>&7команду &9'{Cmd}' &7,которая была заблокирована!</center>"
+    - ''
+    - '<center>&eCopyright © 2020</center>'
+    - ''
+MESSAGE_CRASH: '&cВозникла ошибка в плагине, обратитесь сюда - https://discordapp.com/invite/ScyZQ89 ...'
+MESSAGE_ITEMS: '&cЗапрещенные предметы были обнаружены и уничтожены!'
+MESSAGE_CANCELLED_VPN: '&c{Player} попытался подключиться с VPN. Подключение отменено.'
+MESSAGE_FRAUD_SCORE: '&c{Player} попытался подключиться с поддельными ключами. Подключение отменено.'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
