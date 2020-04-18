@@ -1,0 +1,80 @@
+#                     ___         ___
+#      _____         /\  \       /\__\
+#     /::\  \       /::\  \     /:/ _/_
+#    /:/\:\  \     /:/\:\__\   /:/ /\  \
+#   /:/ /::\__\   /:/ /:/  /  /:/ /::\  \
+#  /:/_/:/\:|__| /:/_/:/  /  /:/_/:/\:\__\
+#  \:\/:/ /:/  / \:\/:/  /   \:\/:/ /:/  /
+#   \::/_/:/  /   \::/__/     \::/ /:/  /
+#    \:\/:/  /     \:\  \      \/_/:/  /
+#     \::/  /       \:\__\       /:/  /
+#      \/__/         \/__/       \/__/
+
+# ===================
+# Language: Spanish =
+# By: Ruben_Artz    =
+# ===================
+
+MESSAGE_TIP: '&9TIP&f, Coloque el cursor en el mensaje y haga clic para seleccionar.'
+MESSAGE_RELOAD: '&7Cargue la configuración del complemento.'
+MESSAGE_RELOAD_BOX: '&f &8▪ &fCargue la configuración del complemento.'
+MESSAGE_HELP: '&7Ver los comandos disponibles.'
+MESSAGE_HELP_BOX: '&f &8▪ &fHaga clic para ver los comandos.'
+MESSAGE_OTHER: '&7Use estos dos comandos para ver su config'
+MESSAGE_OTHER_BOX: '&f &8▪ &fComienza a descargar.'
+MESSAGE_USING: '&cEste servidor está usando BPS-Premium <ver>'
+MESSAGE_USING_BOX: '&f &8▪ &fHaga clic para ver los comandos.'
+MESSAGE_USING_ACTIONBAR: '&cClick en el mensaje'
+MESSAGE_USE_SEARCH: '&7Buscar en la base de datos...'
+MESSAGE_USE_SEARCH_BOX: '&f &8▪ &fBuscar en la base de datos'
+MESSAGE_OLD_VER: '&fTienes una versión anterior del complemento. Usted está'
+MESSAGE_OLD_NEW: '&fusando &e<old>&f, versión disponible &e<new>'
+MESSAGE_UPDATE_TITLE:
+  - '&8[&9BPS-Premium&8];&fVersión antigua &e<old> &fNueva versión &e<new>'
+MESSAGE_UPDATE_ACTIONBAR: '&cDescargue la última versión &e<new>'
+MESSAGE_UPDATE_BOSSBAR: '&fVersión antigua &e<old> &fNueva versión &e<new>'
+MESSAGE_GUI: '&7Configure el plugin desde la gui'
+MESSAGE_GUI_BOX: '&f &8▪ &fHaga clic para abrir la GUI del usuario.'
+MESSAGE_RELOAD_CONFIGS: '&aEl %File el archivo fue recargado!'
+MESSAGE_FILE_NOT_FOUND: '&cEl archivo con nombre %File no encontrado!'
+MESSAGE_SEARCH: '&cUse: /bps search <player> <page> #Buscar en la base de datos'
+MESSAGE_ANTI_BOT: '&cPuede ser un bot!'
+MESSAGE_ATTACK_BOT: '&c¡Se detectó un ataque de bot!'
+MESSAGE_BOT_MILLISECONDS: '&cTarifa: {Seconds} milisegundos'
+MESSAGE_DISABLE_BOT_FILTER: '&cse ha reducido, deshabilitando el filtro de bot ...'
+COMMANDS:
+  MESSAGE_RELOAD_TITLE:
+    - '<exclusive>;&7(( Todas las configuraciones se reiniciaron. ))'
+  MESSAGE_RELOAD_SUCCESS:
+    - '&aRecargando plugin..'
+    - '&a¡Complemento cargado correctamente!'
+  MESSAGE_RELOAD_ACTIONBAR: '&7(( Todas las configuraciones se reiniciaron. ))'
+  AVATAR_URL:
+    - 'https://minotar.net/helm/{Player}/8.png'
+    - 'https://cravatar.eu/helmavatar/{Player}/8.png'
+    - 'https://mc-heads.net/avatar/{Player}/8'
+  PLAYER_MSG:
+    - ''
+    - '<center>&a&lNOTIFICACIÓN!</center>'
+    - ''
+    - '<center>&7Jugador &9{Player} &7trató de ejecutar</center>'
+    - "<center>&7Comando &9'{Cmd}' &7fue bloqueado!</center>"
+    - ''
+    - '<center>&eCopyright © 2020</center>'
+    - ''
+MESSAGE_CRASH: '&cHay un problema que no podemos resolver ...'
+MESSAGE_ITEMS: '&c¡Se han encontrado y eliminado elementos ilegales!'
+MESSAGE_CANCELLED_VPN: '&c{Player} Intenté conectarme con una VPN. Conexión cancelada'
+MESSAGE_FRAUD_SCORE: '&c{Player} Intenté conectarme con un alto puntaje de fraude. Conexión cancelada'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
