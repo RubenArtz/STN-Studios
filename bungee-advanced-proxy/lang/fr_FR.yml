@@ -1,0 +1,101 @@
+#      ___         ___           ___           ___
+#     /\  \       /\  \         /\  \         /|  |
+#    /::\  \     /::\  \       /::\  \       |:|  |           ___
+#   /:/\:\__\   /:/\:\__\     /:/\:\  \      |:|  |          /|  |
+#  /:/ /:/  /  /:/ /:/  /    /:/  \:\  \   __|:|__|         |:|  |
+# /:/_/:/  /  /:/_/:/__/___ /:/__/ \:\__\ /::::\__\_____    |:|  |
+# \:\/:/  /   \:\/:::::/  / \:\  \ /:/  / ~~~~\::::/___/  __|:|__|
+#  \::/__/     \::/~~/~~~~   \:\  /:/  /      |:|~~|     /::::\  \
+#   \:\  \      \:\~~\        \:\/:/  /       |:|  |     ~~~~\:\  \
+#    \:\__\      \:\__\        \::/  /        |:|__|          \:\__\
+#     \/__/       \/__/         \/__/         |/__/            \/__/
+
+# ===================
+# Language: French =
+# By: Ruben_Artz    =
+# ===================
+MESSAGES:
+  RELOAD_CONFIG: '&aToutes les configurations ont été chargées!'
+  COMMAND_USE_MAINTENANCE: '&cUtilisation incorrecte! Utilisation /{Command} maintenance toggle|add|remove'
+  INVALID_COMMAND: '&cUtilisation incorrecte! Utilisation /{Command} help'
+  MAINTENANCE_DISABLED: '&cLe mode de maintenance a été désactivé avec succès par &c{Sender}'
+  MAINTENANCE_ENABLED: '&aLe mode de maintenance a été activé avec succès par {Sender}'
+  MAINTENANCE_KICK: '&cCe réseau est en mode maintenance!'
+  COMMAND_USE_ADD: '&cUtilisation incorrecte! Utilisation /{Command} maintenance add <player>'
+  COMMAND_USE_REMOVE: '&cUtilisation incorrecte! Utilisation /{Command} maintenance remove <player>'
+  WHITELIST_ALREADY_ADDED: '&c{Player} est déjà dans la liste blanche de maintenance!'
+  WHITELIST_ADDED: '&cAjoutée {Player} sur la liste blanche de maintenance!'
+  WHITELIST_REMOVED: '&cEnlevé {Player} de la liste blanche de maintenance!'
+  WHITELIST_NOT_FOUND: "&cCe lecteur n'est pas dans la liste blanche de maintenance!"
+  OUTDATED_CLIENT: '&cVous utilisez une version non prise en charge de Minecraft!'
+  ADDRESS_LIMIT: '&cTrop de connexions à partir de cette adresse IP!'
+  MESSAGE_TIP: '&9POINTE&f, Placez le curseur dans le message et cliquez pour sélectionner.'
+  MESSAGE_RELOAD: '&7Chargez la configuration du plugin.'
+  MESSAGE_RELOAD_BOX: '&f &8▪ &fChargez la configuration du plugin.'
+  MESSAGE_HELP: '&7Voir les commandes disponibles.'
+  MESSAGE_HELP_BOX: '&f &8▪ &fVoir les commandes disponibles.'
+  MESSAGE_HELP_PLUGINS: '&7Voir la liste des plugins.'
+  MESSAGE_HELP_BOX_PLUGINS: '&f &8▪ &fCliquez pour voir la liste des plugins.'
+  MESSAGE_MAINTENANCE_TOGGLE: '&7Activer et désactiver la maintenance.'
+  MESSAGE_MAINTENANCE_TOGGLE_BOX: '&f &8▪ &fcliquez pour exécuter la commande.'
+  MESSAGE_MAINTENANCE_ADD: '&7Ajouter un joueur à la liste blanche'
+  MESSAGE_MAINTENANCE_ADD_BOX: '&f &8▪ &fcliquez pour exécuter la commande.'
+  MESSAGE_MAINTENANCE_REMOVE: '&7Supprimer un utilisateur de la liste blanche.'
+  MESSAGE_MAINTENANCE_REMOVE_BOX: '&f &8▪ &fcliquez pour exécuter la commande.'
+  MESSAGE_USING: '&cCe serveur utilise BungeeAdvancedProxy'
+  MESSAGE_FILE_NOT_FOUND: '&cLe fichier avec le nom {File} pas trouvé!'
+  MESSAGE_RELOAD_CONFIGS: '&aLe {File} le fichier a été rechargé!'
+  PROXY_COMMANDS:
+    MESSAGE_NO_PERMISSIONS: "&cVous n'êtes pas autorisé à utiliser cette commande!"
+    MESSAGE_BUNGEE_VERSION: |-
+      &f
+      &8« » ============== &e✯ &9&lAdvanced Proxy &e✯ &8============== « »
+                                            &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
+      &f
+      &fVersion: &a{Version}
+      &fModifié par: &aRuben_Artz
+      &f
+      &8« » =============================================== « »
+      &f
+    MESSAGE_USE_BUNGEE: '&cUtilisation incorrecte! Utilisation "/bungee" pour voir la version!'
+    MESSAGE_ALERT_BUNGEE: '&cUtilisation incorrecte! Utilisation "/alert [message]" envoyer un message!'
+    MESSAGE_ALERT_SEND: '&c[¡] Alerte: {Announce} [!]'
+    MESSAGE_END_KICK: |-
+      &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
+      &f
+      &7     &c** ERREUR **
+      &f
+      &c  - Le serveur est en train de redémarrer
+      &c  - Revenez dans quelques minutes!
+    MEESAGE_USE_END: '&cUtilisation incorrecte! Utilisation "/end" éteignez le serveur!'
+    MEESAGE_USE_FIND: '&cUtilisation incorrecte! Utilisation "/find" trouver un joueur!'
+    MESSAGE_FIND_NO_PLAYER: '&cLe joueur {Player} est hors-ligne!'
+    MESSAGE_FIND_PLAYER: |-
+      &f
+      &8« » ============== &e✯ &9&lAdvanced Proxy &e✯ &8============== « »
+                                            &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
+      &f
+      &fJoueur: &a{Player}
+      &fServeur: &a{Server}
+      &f
+      &8« » =============================================== « »
+      &f
+    MEESAGE_USE_LIST: '&cUtilisation incorrecte! Utilisation "/glist" Voir tous les joueurs en ligne!'
+    MESSAGE_GLIST_HEADER: '&cServeurs disponibles pour le moment:'
+    MESSAGE_GLIST_SERVERS: '&8» &e{Server} &7- &c{Players} &b{Online}'
+    MESSAGE_GLIST_FOOTER: '&e» &e&l{Total} &ejoueurs connectés.'
+    MEESAGE_USE_IP: '&cUtilisation incorrecte! Utilisation "/ip [player]" montrer joueur ip!'
+    MESSAGE_NO_IP_PLAYER: '&cLe joueur {Player} est hors-ligne!'
+    MESSAGE_SUCCESS_IP_PLAYER: '&aAdresse IP joueur est &e{Address}'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/

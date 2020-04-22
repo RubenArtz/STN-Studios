@@ -1,0 +1,101 @@
+#      ___         ___           ___           ___
+#     /\  \       /\  \         /\  \         /|  |
+#    /::\  \     /::\  \       /::\  \       |:|  |           ___
+#   /:/\:\__\   /:/\:\__\     /:/\:\  \      |:|  |          /|  |
+#  /:/ /:/  /  /:/ /:/  /    /:/  \:\  \   __|:|__|         |:|  |
+# /:/_/:/  /  /:/_/:/__/___ /:/__/ \:\__\ /::::\__\_____    |:|  |
+# \:\/:/  /   \:\/:::::/  / \:\  \ /:/  / ~~~~\::::/___/  __|:|__|
+#  \::/__/     \::/~~/~~~~   \:\  /:/  /      |:|~~|     /::::\  \
+#   \:\  \      \:\~~\        \:\/:/  /       |:|  |     ~~~~\:\  \
+#    \:\__\      \:\__\        \::/  /        |:|__|          \:\__\
+#     \/__/       \/__/         \/__/         |/__/            \/__/
+
+# ===================
+# Language: Chinese =
+# By: Ruben_Artz    =
+# ===================
+MESSAGES:
+  RELOAD_CONFIG: '&a所有配置都已加載！'
+  COMMAND_USE_MAINTENANCE: '&c使用不正確！ 使用 /{Command} maintenance toggle|add|remove'
+  INVALID_COMMAND: '&c命令無效！ 使用 /{Command} help'
+  MAINTENANCE_DISABLED: '&c維護模式已成功禁用 &c{Sender}'
+  MAINTENANCE_ENABLED: '&a維護模式已成功啟用 {Sender}'
+  MAINTENANCE_KICK: '&c該網絡處於維護模式！'
+  COMMAND_USE_ADD: '&c使用不正確！ 使用 /{Command} maintenance add <player>'
+  COMMAND_USE_REMOVE: '&c使用不正確！ 使用 /{Command} maintenance remove <player>'
+  WHITELIST_ALREADY_ADDED: '&c{Player} 已經在維護白名單了！'
+  WHITELIST_ADDED: '&c添加 {Player} 到維護白名單！'
+  WHITELIST_REMOVED: '&c刪除 {Player} f維護白名單！'
+  WHITELIST_NOT_FOUND: '&c此播放器不在維護白名單中！'
+  OUTDATED_CLIENT: '&c您正在使用不受支持的Minecraft版本！'
+  ADDRESS_LIMIT: '&c來自此IP地址的連接太多了！'
+  MESSAGE_TIP: '&9小費&f, 將光標放在消息中，然後單擊以選中。'
+  MESSAGE_RELOAD: '&7加載插件配置.'
+  MESSAGE_RELOAD_BOX: '&f &8▪ &f加載插件配置.'
+  MESSAGE_HELP: '&7請參閱可用的命令.'
+  MESSAGE_HELP_BOX: '&f &8▪ &f單擊以查看命令.'
+  MESSAGE_HELP_PLUGINS: '&7請參閱插件列表。'
+  MESSAGE_HELP_BOX_PLUGINS: '&f &8▪ &f單擊以查看插件列表。'
+  MESSAGE_MAINTENANCE_TOGGLE: '&7啟用和禁用維護.'
+  MESSAGE_MAINTENANCE_TOGGLE_BOX: '&f &8▪ &f單擊以執行該命令.'
+  MESSAGE_MAINTENANCE_ADD: '&7將播放器添加到白名單'
+  MESSAGE_MAINTENANCE_ADD_BOX: '&f &8▪ &f單擊以執行該命令.'
+  MESSAGE_MAINTENANCE_REMOVE: '&7從白名單中刪除用戶。'
+  MESSAGE_MAINTENANCE_REMOVE_BOX: '&f &8▪ &f單擊以執行該命令.'
+  MESSAGE_USING: '&c這個服務器正在使用 BungeeAdvancedProxy'
+  MESSAGE_FILE_NOT_FOUND: '&c帶有名稱的文件 {File} 未找到！'
+  MESSAGE_RELOAD_CONFIGS: '&a的 {File} 文件已重新加載！'
+  PROXY_COMMANDS:
+    MESSAGE_NO_PERMISSIONS: "&c您沒有使用該命令的權限！"
+    MESSAGE_BUNGEE_VERSION: |-
+      &f
+      &8« » ============== &e✯ &9&lAdvanced Proxy &e✯ &8============== « »
+                                            &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
+      &f
+      &f版: &a{Version}
+      &f修改者: &aRuben_Artz
+      &f
+      &8« » =============================================== « »
+      &f
+    MESSAGE_USE_BUNGEE: '&c使用方法不正確！ 採用 "/bungee" 看版本！'
+    MESSAGE_ALERT_BUNGEE: '&c使用方法不正確！ 採用 "/alert [message]" 發送一個消息！'
+    MESSAGE_ALERT_SEND: '&c[¡] 警報: {Announce} [!]'
+    MESSAGE_END_KICK: |-
+      &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
+      &f
+      &7     &c** 錯誤 **
+      &f
+      &c  - 服務器正在重啟
+      &c  - 幾分鐘後回來！
+    MEESAGE_USE_END: '&c使用方法不正確！ 採用 "/end" 關閉服務器！'
+    MEESAGE_USE_FIND: '&c使用方法不正確！ 採用 "/find" 找到一個球員！'
+    MESSAGE_FIND_NO_PLAYER: '&c玩家 {Player} 離線！'
+    MESSAGE_FIND_PLAYER: |-
+      &f
+      &8« » ============== &e✯ &9&lAdvanced Proxy &e✯ &8============== « »
+                                            &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
+      &f
+      &f播放器: &a{Player}
+      &f服務器: &a{Server}
+      &f
+      &8« » =============================================== « »
+      &f
+    MEESAGE_USE_LIST: '&c錯誤使用！ 採用 "/glist" 網上查看所有玩家！'
+    MESSAGE_GLIST_HEADER: '&c目前可用的服務器：'
+    MESSAGE_GLIST_SERVERS: '&8» &e{Server} &7- &c{Players} &b{Online}'
+    MESSAGE_GLIST_FOOTER: '&e» &e&l{Total} &e連接的玩家。'
+    MEESAGE_USE_IP: '&c使用方法不正確！ 採用 "/ip [player]" 顯示播放器ip！'
+    MESSAGE_NO_IP_PLAYER: '&c玩家 {Player} 離線！'
+    MESSAGE_SUCCESS_IP_PLAYER: '&aIP地址播放器 是 &e{Address}'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
