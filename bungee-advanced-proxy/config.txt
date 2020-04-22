@@ -1,0 +1,179 @@
+#      ___         ___           ___           ___
+#     /\  \       /\  \         /\  \         /|  |
+#    /::\  \     /::\  \       /::\  \       |:|  |           ___
+#   /:/\:\__\   /:/\:\__\     /:/\:\  \      |:|  |          /|  |
+#  /:/ /:/  /  /:/ /:/  /    /:/  \:\  \   __|:|__|         |:|  |
+# /:/_/:/  /  /:/_/:/__/___ /:/__/ \:\__\ /::::\__\_____    |:|  |
+# \:\/:/  /   \:\/:::::/  / \:\  \ /:/  / ~~~~\::::/___/  __|:|__|
+#  \::/__/     \::/~~/~~~~   \:\  /:/  /      |:|~~|     /::::\  \
+#   \:\  \      \:\~~\        \:\/:/  /       |:|  |     ~~~~\:\  \
+#    \:\__\      \:\__\        \::/  /        |:|__|          \:\__\
+#     \/__/       \/__/         \/__/         |/__/            \/__/
+
+LANGUAGE: 'en_US'
+MAINTENANCE_MODE_ENABLED: false
+CHECK_UPDATE: true
+ADDRESS_LIMIT: 3
+# If this is so (ALLOWED_PROTOCOL_VERSIONS: ALL) accept all versions of minecraft
+#You can see the entire list of versions here: https://wiki.vg/Protocol_version_numbers
+ALLOWED_PROTOCOL_VERSIONS: [47, 107, 108, 110, 210, 315, 316, 335, 338, 340, 393, 401, 404, 477, 480, 485, 490, 498, 573, 575, 578]
+WHITELIST_PLAYERS:
+  - Ruben_Artz
+MAINTENANCE_MODE:
+  HEAD_FAVICON: false
+  PING: true
+  ICON:
+    - BUKKIT
+  VERSION:
+    - '&e⚠ &cMaintenance Mode &e⚠'
+  FAVICON:
+    - maintenance-mode.png
+  MOTD:
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &f&l&n[&6&l&n9&e&l&n5&f&l&n% &6&l&nO&e&l&nF&f&l&nF &e&l&nS&6&l&nA&f&l&nL&e&l&nE!&f&l&n]&f;<section>&f&lSTATUS: &c&lIN MAINTENANCE&7, &b&lCHECK OUR FORUM.</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &4&l&n[&c&l&n9&f&l&n5&4&l&n% &c&l&nO&f&l&nF&4&l&nF &c&l&nS&f&l&nA&4&l&nL&c&l&nE&f&l!&4&l&n]&f;<section>&f&lSTATUS: &c&lIN MAINTENANCE&7, &b&lCHECK OUR FORUM.</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &3&l&n[&d&l&n9&b&l&n5&3&l&n% &d&l&nO&b&l&nF&3&l&nF &d&l&nS&b&l&nA&3&l&nL&d&l&nE&b&l!&3&l&n]&f;<section>&f&lSTATUS: &c&lIN MAINTENANCE&7, &b&lCHECK OUR FORUM.</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &2&l&n[&c&l&n9&a&l&n5&2&l&n% &c&l&nO&a&l&nF&2&l&nF &c&l&nS&a&l&nA&2&l&nL&c&l&nE&a&l!&2&l&n]&f;<section>&f&lSTATUS: &c&lIN MAINTENANCE&7, &b&lCHECK OUR FORUM.</section>'
+  COUNT:
+    - ''
+    - '  &0▉▉▉▉▉▉▉▉&f&7    &9&lＳＴＮ &f&lＳＴＵＤＩＯＳ'
+    - '  &0▉▉▉▉▉▉▉▉&f       &9&lSERVERS:             &c&lMaintenance Mode'
+    - '  &0▉&e▉▉▉▉▉▉&0▉&f  &9● &7Lobby: &7(&f{Server@lobby}&8/&c300&7)          &cThis network is in maintenance.'
+    - '  &e▉&f▉&0▉&e▉▉&0▉&f▉&e▉  &9● &7Combo PvP: &7(&f{Server@lobby}&8/&c300&7)      &7&o(( Please try again soon! ))'
+    - '  &0▉&7▉&e▉▉▉▉&7▉&0▉  &9● &7SkyBlock: &7(&f{Server@lobby}&8/&c300&7)'
+    - '  &0▉▉▉▉▉▉▉▉  &9● &7SkyWars: &7(&f{Server@lobby}&8/&c300&7)          &b&l☃ &c&lHOLIDAY SALE &b&l☃'
+    - '  &0▉▉▉&7▉▉&0▉▉▉        &9&lTOTAL:'
+    - '  &0▉▉▉▉▉▉▉▉   &c&l{Online} &7Online players'
+    - ''
+PROTOCOL_VERSION:
+  HEAD_FAVICON: true
+  PING: true
+  ICON:
+    - VANILLA
+  VERSION:
+    - '&e♕ &fUptime &7{Uptime}'
+  FAVICON:
+    - protocol-version.png
+  MOTD:
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &f&l&n[&6&l&n9&e&l&n5&f&l&n% &6&l&nO&e&l&nF&f&l&nF &e&l&nS&6&l&nA&f&l&nL&e&l&nE!&f&l&n]&f;<section>&e&lNEW&f&l: SPRING SALE&7, &b&lVISIT OUR SHOP!</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &4&l&n[&c&l&n9&f&l&n5&4&l&n% &c&l&nO&f&l&nF&4&l&nF &c&l&nS&f&l&nA&4&l&nL&c&l&nE&f&l!&4&l&n]&f;<section>&e&lNEW&f&l: SPRING SALE&7, &b&lVISIT OUR SHOP!</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &3&l&n[&d&l&n9&b&l&n5&3&l&n% &d&l&nO&b&l&nF&3&l&nF &d&l&nS&b&l&nA&3&l&nL&d&l&nE&b&l!&3&l&n]&f;<section>&e&lNEW&f&l: SPRING SALE&7, &b&lVISIT OUR SHOP!</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &2&l&n[&c&l&n9&a&l&n5&2&l&n% &c&l&nO&a&l&nF&2&l&nF &c&l&nS&a&l&nA&2&l&nL&c&l&nE&a&l!&2&l&n]&f;<section>&e&lNEW&f&l: SPRING SALE&7, &b&lVISIT OUR SHOP!</section>'
+  COUNT:
+    - ''
+    - '  &0▉▉▉▉▉▉▉▉&f&7    &9&lＳＴＮ &f&lＳＴＵＤＩＯＳ'
+    - '  &0▉▉▉▉▉▉▉▉&f       &9&lSERVERS:             &e♕ &fUptime &7{Uptime}'
+    - '  &0▉&e▉▉▉▉▉▉&0▉&f  &9● &7Lobby: &7(&f{Server@lobby}&8/&c300&7)          &e♕ &fCountdown &7{Countdown}'
+    - '  &e▉&f▉&0▉&e▉▉&0▉&f▉&e▉  &9● &7Combo PvP: &7(&f{Server@lobby}&8/&c300&7)'
+    - '  &0▉&7▉&e▉▉▉▉&7▉&0▉  &9● &7SkyBlock: &7(&f{Server@lobby}&8/&c300&7)         &b&l☃ &c&lHOLIDAY SALE &b&l☃'
+    - '  &0▉▉▉▉▉▉▉▉  &9● &7SkyWars: &7(&f{Server@lobby}&8/&c300&7) '
+    - '  &0▉▉▉&7▉▉&0▉▉▉        &9&lTOTAL:           &7&oDouble click to join on this network!'
+    - '  &0▉▉▉▉▉▉▉▉   &c&l{Online} &7Online players'
+    - ''
+OUTDATED_CLIENT:
+  HEAD_FAVICON: false
+  PING: true
+  ICON:
+    - FML
+  VERSION:
+    - '&e⚠ &cOutdated Client &e⚠'
+  FAVICON:
+    - outdated-client.png
+  MOTD:
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &f&l&n[&6&l&n9&e&l&n5&f&l&n% &6&l&nO&e&l&nF&f&l&nF &e&l&nS&6&l&nA&f&l&nL&e&l&nE!&f&l&n]&f;<section>&7&o(( Please use &e[1.8-1.15] Minecraft &7&oversion! ))</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &4&l&n[&c&l&n9&f&l&n5&4&l&n% &c&l&nO&f&l&nF&4&l&nF &c&l&nS&f&l&nA&4&l&nL&c&l&nE&f&l!&4&l&n]&f;<section>&7&o(( Please use &e[1.8-1.15] Minecraft &7&oversion! ))</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &3&l&n[&d&l&n9&b&l&n5&3&l&n% &d&l&nO&b&l&nF&3&l&nF &d&l&nS&b&l&nA&3&l&nL&d&l&nE&b&l!&3&l&n]&f;<section>&7&o(( Please use &e[1.8-1.15] Minecraft &7&oversion! ))</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &2&l&n[&c&l&n9&a&l&n5&2&l&n% &c&l&nO&a&l&nF&2&l&nF &c&l&nS&a&l&nA&2&l&nL&c&l&nE&a&l!&2&l&n]&f;<section>&7&o(( Please use &e[1.8-1.15] Minecraft &7&oversion! ))</section>'
+  COUNT:
+    - '&r'
+    - '  &0▉▉▉▉▉▉▉▉&f'
+    - '  &0▉▉▉▉▉▉▉▉&f                &c&lObsolete customer'
+    - '  &0▉&e▉▉▉▉▉▉&0▉&f'
+    - '  &e▉&f▉&0▉&e▉▉&0▉&f▉&e▉       Please use version 1.8.8 Minecraft!'
+    - '  &0▉&7▉&e▉▉▉▉&7▉&0▉      &7&o(( You are using an unsupported version! ))'
+    - '  &0▉▉▉▉▉▉▉▉'
+    - '  &0▉▉▉&7▉▉&0▉▉▉         &b&l☃ &c&lHOLIDAY SALE &b&l☃'
+    - '  &0▉▉▉▉▉▉▉▉'
+    - ''
+LOBBY_COMMAND:
+  PERMISSION: 'advancedproxy.command.lobby'
+  UNKNOWN_SERVER: '&8[&9Advanced Proxy&8] &cThis server not exists...'
+  SERVERS:
+    - 'lobby'
+    - 'lobby1'
+    - 'lobby2'
+    - 'lobby3'
+FALLEN_SERVER:
+  SERVERS:
+    - 'lobby'
+    - 'lobby1'
+    - 'lobby2'
+    - 'lobby3'
+  MESSAGES:
+    KICK_URL:
+      - 'https://minotar.net/helm/{Player}/8.png'
+      - 'https://cravatar.eu/helmavatar/{Player}/8.png'
+      - 'https://mc-heads.net/avatar/{Player}/8'
+    KICK_MESSAGE:
+      - ''
+      - '<center>&e&l♕ &9&lＳＴＮ &f&lＳＴＵＤＩＯＳ &e&l♕</center>'
+      - ''
+      - '<center>&f** &6&lWARNING! &6{Player} &f**</center>'
+      - ''
+      - '<center>&7&o(( The server where you were shut up! ))</center>'
+      - ''
+      - '<center>&eCopyright © 2019</center>'
+ONLINE_PLAYERS:
+  CUSTOM:
+    ENABLED: false
+    ONLINE: 10000
+    MAX_ONLINE: 10000
+  RANDOM:
+    ENABLED: true
+    ONLINE:
+      MINIMUM: 49950
+      MAXIMUM: 50000
+    MAXIMUM: 50000
+  JUST_ONE_MORE:
+    ENABLED: false
+  BOOSTED_PLAYERS:
+    ENABLED: false
+    MULTIPIER: 2
+    MAXIMUM: 2020
+COUNTDOWN:
+  TIMEZONE: EET
+  DATE_END: 06/03/20 17:00:00
+  DATE_FORMAT: MM/dd/yy HH:mm:ss
+TIME_FORMAT:
+  UPTIME_SPLIT: ' '
+  COUNTDOWN_SPLIT: ' '
+COMMANDS:
+  ALERT: true
+  BUNGEE: true
+  END: true
+  FIND: true
+  IP: true
+  LIST: true
+  SERVER: true
+PERMISSIONS:
+  ADVANCED_PROXY:
+    MAIN_COMMAND: 'advancedproxy.command.use'
+  BUNGEECORD:
+    BUNGEE_ALERT: 'bungeecord.command.alert'
+    BUNGEE_BUNGEE: 'bungeecord.command.bungee'
+    BUNGEE_END: 'bungeecord.command.end'
+    BUNGEE_FIND: 'bungeecord.command.find'
+    BUNGEE_IP: 'bungeecord.command.ip'
+    BUNGEE_LIST: 'bungeecord.command.list'
+    BUNGEE_SERVER: 'bungeecord.command.server'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
