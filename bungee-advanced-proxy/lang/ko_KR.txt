@@ -1,0 +1,101 @@
+#      ___         ___           ___           ___
+#     /\  \       /\  \         /\  \         /|  |
+#    /::\  \     /::\  \       /::\  \       |:|  |           ___
+#   /:/\:\__\   /:/\:\__\     /:/\:\  \      |:|  |          /|  |
+#  /:/ /:/  /  /:/ /:/  /    /:/  \:\  \   __|:|__|         |:|  |
+# /:/_/:/  /  /:/_/:/__/___ /:/__/ \:\__\ /::::\__\_____    |:|  |
+# \:\/:/  /   \:\/:::::/  / \:\  \ /:/  / ~~~~\::::/___/  __|:|__|
+#  \::/__/     \::/~~/~~~~   \:\  /:/  /      |:|~~|     /::::\  \
+#   \:\  \      \:\~~\        \:\/:/  /       |:|  |     ~~~~\:\  \
+#    \:\__\      \:\__\        \::/  /        |:|__|          \:\__\
+#     \/__/       \/__/         \/__/         |/__/            \/__/
+
+# ===================
+# Language: Korean  =
+# By: Lae Drugge    =
+# ===================
+MESSAGES:
+  RELOAD_CONFIG: '&a모든 설정이 리로드 되었습니다!'
+  COMMAND_USE_MAINTENANCE: '&c잘못된 커맨드입니다! /{Command} maintenance toggle|add|remove 를 쓰세요!'
+  INVALID_COMMAND: '&c잘못된 커맨드입니다! /{Command} help 를 쓰세요!'
+  MAINTENANCE_DISABLED: '&c점검모드가 &c{Sender}에 의해 꺼졌습니다!'
+  MAINTENANCE_ENABLED: '&a점검모드가 {Sender}에 의해 켜졌습니다!'
+  MAINTENANCE_KICK: '&c이 네트워크는 지금 점검중에 있습니다!'
+  COMMAND_USE_ADD: '&c잘못된 커맨드입니다! /{Command} maintenance add <player> 를 쓰세요!'
+  COMMAND_USE_REMOVE: '&c잘못된 커맨드입니다! /{Command} maintenance remove <player> 를 쓰세요!'
+  WHITELIST_ALREADY_ADDED: '&c{Player} 가 이미 화이트 리스트에 있습니다!'
+  WHITELIST_ADDED: '&c{Player}를 화이트 리스트에 넣었습니다!'
+  WHITELIST_REMOVED: '&c{Player}를 화이트 리스트에서 뺐습니다!'
+  WHITELIST_NOT_FOUND: '&c이 플레이어는 점검 화이트 리스트에 없습니다!'
+  OUTDATED_CLIENT: '&c당신은 지원하지 않는 버전에 있습니다!'
+  ADDRESS_LIMIT: '&c이 아이피에서 연결 초과가 되었습니다!'
+  MESSAGE_TIP: '&9팁&f, 커서를 메시지 위에 두고 선택하세요!'
+  MESSAGE_RELOAD: '&7플러그인 설정 파일을 리로드 했습니다.'
+  MESSAGE_RELOAD_BOX: '&f &8▪ &f플러그인 설정 파일을 리로드 했습니다.'
+  MESSAGE_HELP: '&7사용할수 있는 커맨드를 가져왔습니다!'
+  MESSAGE_HELP_BOX: '&f &8▪ &f클릭하여 커맨드를 보실수 있습니다!'
+  MESSAGE_HELP_PLUGINS: '&7플러그인 리스트를 가져왔습니다!'
+  MESSAGE_HELP_BOX_PLUGINS: '&f &8▪ &f클릭하여 플러그인 리스트를 보세요!'
+  MESSAGE_MAINTENANCE_TOGGLE: '&7점검 활성화,비활성화 하기!'
+  MESSAGE_MAINTENANCE_TOGGLE_BOX: '&f &8▪ &f클릭하여 커맨드를 쓰실수 있습니다!'
+  MESSAGE_MAINTENANCE_ADD: '&7플레이어를 &7화이트 리스트&7에 넣기!'
+  MESSAGE_MAINTENANCE_ADD_BOX: '&f &8▪ &f클릭하여 커맨드를 쓰실수 있습니다!'
+  MESSAGE_MAINTENANCE_REMOVE: '&7플레이어를 화이트 리스트에 빼기!'
+  MESSAGE_MAINTENANCE_REMOVE_BOX: '&f &8▪ &f클릭하여 커맨드를 쓰실수 있습니다!'
+  MESSAGE_USING: '&c이 서버는 BungeeAdvancedProxy를 쓰고 있습니다!'
+  MESSAGE_FILE_NOT_FOUND: '&c{File} 이름으로 된 파일을 찾을수 없습니다!'
+  MESSAGE_RELOAD_CONFIGS: '&a{File} 이 리로드 되었습니다!'
+  PROXY_COMMANDS:
+    MESSAGE_NO_PERMISSIONS: "&c당신은 그 커맨드를 쓰기위한 권한이 없습니다!"
+    MESSAGE_BUNGEE_VERSION: |-
+      &f
+      &8« » ============== &e✯ &9&lAdvanced Proxy &e✯ &8============== « »
+                                            &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
+      &f
+      &f버전: &a{Version}
+      &f제작사: &aRuben_Artz
+      &f
+      &8« » =============================================== « »
+      &f
+    MESSAGE_USE_BUNGEE: '&c잘못된 커맨드입니다! "/bungee" 를 써서 버전을 보세요!'
+    MESSAGE_ALERT_BUNGEE: '&c잘못된 커맨드입니다! "/alert [메시지]" 를 써서 메시지를 보내세요!'
+    MESSAGE_ALERT_SEND: '&c[¡] 알림: {Announce} [!]'
+    MESSAGE_END_KICK: |-
+      &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
+      &f
+      &7     &c** 에러 **
+      &f
+      &c  - 서버가 재부팅 됩니다!
+      &c  - 몇분후 다시 들어와주세요!
+    MEESAGE_USE_END: '&c잘못된 커맨드입니다! "/end" 를 써서 서버를 끌수 있습니다!'
+    MEESAGE_USE_FIND: '&잘못된 커맨드입니다! "/find" 를 써서 플레이어를 찾을수 있습니다!'
+    MESSAGE_FIND_NO_PLAYER: '&c{Player}가 오프라인입니다!'
+    MESSAGE_FIND_PLAYER: |-
+      &f
+      &8« » ============== &e✯ &9&lAdvanced Proxy &e✯ &8============== « »
+                                            &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
+      &f
+      &f플레이어: &a{Player}
+      &f서버: &a{Server}
+      &f
+      &8« » =============================================== « »
+      &f
+    MEESAGE_USE_LIST: '&c잘못된 커맨드입니다! "/glist" 를 써서 서버에 있는 모든 플레이어를 볼수 있습니다!'
+    MESSAGE_GLIST_HEADER: '&c지금 사용할수 있는 서버들:'
+    MESSAGE_GLIST_SERVERS: '&8» &e{Server} &7- &c{Players} &b{Online}'
+    MESSAGE_GLIST_FOOTER: '&e» &e&l{Total} &e명이 접속되어 있습니다.'
+    MEESAGE_USE_IP: '&c잘못된 커맨드입니다! "/ip [player]" 를 써서 플레이어의 ip를 알아낼수 있습니다!'
+    MESSAGE_NO_IP_PLAYER: '&c{Player} 플레이어가 오프라인입니다!'
+    MESSAGE_SUCCESS_IP_PLAYER: '&a플레이어의 아이피는 &e{Address} &a입니다!'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
