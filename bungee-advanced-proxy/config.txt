@@ -95,6 +95,7 @@ OUTDATED_CLIENT:
     - '  &0▉▉▉▉▉▉▉▉'
     - ''
 LOBBY_COMMAND:
+  ENABLED: true
   PERMISSION: 'advancedproxy.command.lobby'
   UNKNOWN_SERVER: '&8[&9Advanced Proxy&8] &cThis server not exists...'
   SERVERS:
@@ -103,6 +104,7 @@ LOBBY_COMMAND:
     - 'lobby2'
     - 'lobby3'
 FALLEN_SERVER:
+  ENABLED: true
   SERVERS:
     - 'lobby'
     - 'lobby1'
@@ -146,25 +148,29 @@ COUNTDOWN:
 TIME_FORMAT:
   UPTIME_SPLIT: ' '
   COUNTDOWN_SPLIT: ' '
+# If you make a change to activate or deactivate the command you should restart your bungee cord!
 COMMANDS:
-  ALERT: true
-  BUNGEE: true
-  END: true
-  FIND: true
-  IP: true
-  LIST: true
-  SERVER: true
-PERMISSIONS:
-  ADVANCED_PROXY:
-    MAIN_COMMAND: 'advancedproxy.command.use'
-  BUNGEECORD:
-    BUNGEE_ALERT: 'bungeecord.command.alert'
-    BUNGEE_BUNGEE: 'bungeecord.command.bungee'
-    BUNGEE_END: 'bungeecord.command.end'
-    BUNGEE_FIND: 'bungeecord.command.find'
-    BUNGEE_IP: 'bungeecord.command.ip'
-    BUNGEE_LIST: 'bungeecord.command.list'
-    BUNGEE_SERVER: 'bungeecord.command.server'
+  ALERT:
+    ENABLE: true
+    PERMISSION_BUNGEE_ALERT: 'bungeecord.command.alert'
+  BUNGEE:
+    ENABLE: true
+    PERMISSION_BUNGEE_BUNGEE: 'bungeecord.command.bungee'
+  END:
+    ENABLE: true
+    PERMISSION_BUNGEE_END: 'bungeecord.command.end'
+  FIND:
+    ENABLE: true
+    PERMISSION_BUNGEE_FIND: 'bungeecord.command.find'
+  IP:
+    ENABLED: true
+    PERMISSION_BUNGEE_IP: 'bungeecord.command.ip'
+  LIST:
+    ENABLED: true
+    PERMISSION_BUNGEE_LIST: 'bungeecord.command.list'
+  SERVERS:
+    ENABLED: true
+    PERMISSION_BUNGEE_SERVER: 'bungeecord.command.server'
 
 #      ___           ___
 #     /\__\         /\  \         _____
