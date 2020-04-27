@@ -42,21 +42,12 @@ MESSAGES:
   MESSAGE_MAINTENANCE_ADD_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
   MESSAGE_MAINTENANCE_REMOVE: '&7Eliminar a un usuario de la lista blanca.'
   MESSAGE_MAINTENANCE_REMOVE_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
-  MESSAGE_USING: '&cEste servidor está usando BungeeAdvancedProxy'
+  MESSAGE_USING: '&cEste servidor está usando BungeeAdvancedProxy {Version}'
   MESSAGE_FILE_NOT_FOUND: '&cNombre del archivo {File} no existe!'
   MESSAGE_RELOAD_CONFIGS: '&aArchivo {File} fue recargado!'
   PROXY_COMMANDS:
     MESSAGE_NO_PERMISSIONS: "&c¡No tienes permisos para usar ese comando!"
-    MESSAGE_BUNGEE_VERSION: |-
-      &f
-      &8« » ============== &e✯ &9&lAdvanced Proxy &e✯ &8============== « »
-                                            &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
-      &f
-      &fVersión: &a{Version}
-      &fModificado por: &aRuben_Artz
-      &f
-      &8« » =============================================== « »
-      &f
+    MESSAGE_BUNGEE_VERSION: '&cEste servidor está usando &fSTN-Studios &cversión &c{Version} &cpor Ruben_Artz &b(PLAY.STN-STUDIOS.COM @ (C) 2019-2020)'
     MESSAGE_USE_BUNGEE: '&cUso incorrecto! Utilizar "/bungee" para ver la versión!'
     MESSAGE_ALERT_BUNGEE: '&cUso incorrecto! Utilizar "/alert [message]" enviar un mensaje!'
     MESSAGE_ALERT_SEND: '&c[¡] Alerta: {Announce} [!]'
