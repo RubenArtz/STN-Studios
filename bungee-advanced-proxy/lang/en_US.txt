@@ -42,21 +42,12 @@ MESSAGES:
   MESSAGE_MAINTENANCE_ADD_BOX: '&f &8▪ &fclick to execute the command.'
   MESSAGE_MAINTENANCE_REMOVE: '&7Remove a user from the whitelist.'
   MESSAGE_MAINTENANCE_REMOVE_BOX: '&f &8▪ &fclick to execute the command.'
-  MESSAGE_USING: '&cThis server is using BungeeAdvancedProxy'
+  MESSAGE_USING: '&cThis server is using BungeeAdvancedProxy {Version}'
   MESSAGE_FILE_NOT_FOUND: '&cThe file with name {File} not found!'
   MESSAGE_RELOAD_CONFIGS: '&aThe {File} file was reloaded!'
   PROXY_COMMANDS:
     MESSAGE_NO_PERMISSIONS: "&cYou don't have permissions to use that command!"
-    MESSAGE_BUNGEE_VERSION: |-
-      &f
-      &8« » ============== &e✯ &9&lAdvanced Proxy &e✯ &8============== « »
-                                            &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
-      &f
-      &fVersion: &a{Version}
-      &fModified by: &aRuben_Artz
-      &f
-      &8« » =============================================== « »
-      &f
+    MESSAGE_BUNGEE_VERSION: '&cThis server is running &fSTN-Studios &cversion &c{Version} &cby Ruben_Artz &b(PLAY.STN-STUDIOS.COM @ (C) 2019-2020)'
     MESSAGE_USE_BUNGEE: '&cIncorrect usage! Use "/bungee" to see the version!'
     MESSAGE_ALERT_BUNGEE: '&cIncorrect usage! Use "/alert [message]" send a message!'
     MESSAGE_ALERT_SEND: '&c[¡] Alert: {Announce} [!]'
