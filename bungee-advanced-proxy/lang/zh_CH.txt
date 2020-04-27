@@ -42,21 +42,12 @@ MESSAGES:
   MESSAGE_MAINTENANCE_ADD_BOX: '&f &8▪ &f單擊以執行該命令.'
   MESSAGE_MAINTENANCE_REMOVE: '&7從白名單中刪除用戶。'
   MESSAGE_MAINTENANCE_REMOVE_BOX: '&f &8▪ &f單擊以執行該命令.'
-  MESSAGE_USING: '&c這個服務器正在使用 BungeeAdvancedProxy'
+  MESSAGE_USING: '&c這個服務器正在使用 BungeeAdvancedProxy {Version}'
   MESSAGE_FILE_NOT_FOUND: '&c帶有名稱的文件 {File} 未找到！'
   MESSAGE_RELOAD_CONFIGS: '&a的 {File} 文件已重新加載！'
   PROXY_COMMANDS:
     MESSAGE_NO_PERMISSIONS: "&c您沒有使用該命令的權限！"
-    MESSAGE_BUNGEE_VERSION: |-
-      &f
-      &8« » ============== &e✯ &9&lAdvanced Proxy &e✯ &8============== « »
-                                            &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
-      &f
-      &f版: &a{Version}
-      &f修改者: &aRuben_Artz
-      &f
-      &8« » =============================================== « »
-      &f
+    MESSAGE_BUNGEE_VERSION: '&c該服務器正在運行 &fSTN-Studios &c版 &c{Version} &c通過 Ruben_Artz &b(PLAY.STN-STUDIOS.COM @ (C) 2019-2020)'
     MESSAGE_USE_BUNGEE: '&c使用方法不正確！ 採用 "/bungee" 看版本！'
     MESSAGE_ALERT_BUNGEE: '&c使用方法不正確！ 採用 "/alert [message]" 發送一個消息！'
     MESSAGE_ALERT_SEND: '&c[¡] 警報: {Announce} [!]'
