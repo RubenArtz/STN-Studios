@@ -1,0 +1,111 @@
+#                    ___                         ___           ___            ___
+#     _____         /\__\                       /\  \         /|  |          /\__\
+#    /::\  \       /:/ _/_                      \:\  \       |:|  |         /:/ _/_
+#   /:/\:\  \     /:/ /\__\                      \:\  \      |:|  |        /:/ /\__\
+#  /:/  \:\__\   /:/ /:/ _/_   ___     ___   ___  \:\  \   __|:|__|       /:/ /:/ _/_
+# /:/__/ \:|__| /:/_/:/ /\__\ /\  \   /\__\ /\  \  \:\__\ /::::\__\_____ /:/_/:/ /\__\
+# \:\  \ /:/  / \:\/:/ /:/  / \:\  \ /:/  / \:\  \ /:/  / ~~~~\::::/___/ \:\/:/ /:/  /
+#  \:\  /:/  /   \::/_/:/  /   \:\  /:/  /   \:\  /:/  /      |:|~~|      \::/_/:/  /
+#   \:\/:/  /     \:\/:/  /     \:\/:/  /     \:\/:/  /       |:|  |       \:\/:/  /
+#    \::/  /       \::/  /       \::/  /       \::/  /        |:|__|        \::/  /
+#     \/__/         \/__/         \/__/         \/__/         |/__/          \/__/
+
+PLAYER:
+  NOT_FOUND_PLAYER:
+    SOUND: 'VILLAGER_NO; 10.0f; 10.0f'
+    MESSAGE: "&cThe player with the name '{Player}' is not online!"
+  USE_COMMAND:
+    SOUND: 'VILLAGER_NO; 10.0f; 10.0f'
+    MESSAGE: '&cPlease use: /acs donate <player> <package> #to proceed with the command.'
+    UNKNOWN_PACKAGE: 'N/A'
+SETTINGS:
+  DISCORD_BOT:
+    ENABLED: true
+    CHANNEL_ID: 689728009963569323
+    SERVER_IMAGE: 'https://i.imgur.com/ecyaYKR.png'
+    TITLE: '{Player} just donated to the server!'
+    COLOR: 30144
+    THUMBNAIL: 'https://minotar.net/armor/bust/{Player}/190.png'
+    AUTHOR:
+      NAME: 'Ruben_Artz'
+      URL: 'https://www.mc-market.org/resources/authors/135315/'
+      ICON: 'https://i.imgur.com/NzGUYzZ.png'
+    FIELDS:
+      PURCHASE:
+        TEXT: 'Purchase:'
+        VALUE: '{Package}'
+      PLAYER:
+        TEXT: 'Player:'
+        VALUE: '{Player}'
+    DESCRIPTION: ''
+    POWERED:
+      IMAGE:
+        VALUE: 'https://i.imgur.com/Yz7AJSy.png'
+      TEXT:
+        VALUE: 'Powered by STN-Studios'
+FIREWORK_COLORS:
+  ENABLED: true
+  DONATOR:
+    - 'YELLOW'
+    - 'WHITE'
+    - 'AQUA'
+    - 'BLUE'
+    - 'FUCHSIA'
+    - 'GRAY'
+    - 'MAROON'
+    - 'NAVY'
+    - 'OLIVE'
+    - 'ORANGE'
+    - 'PURPLE'
+    - 'RED'
+    - 'TEAL'
+    - 'YELLOW'
+SOUNDS:
+  DONATOR:
+    ENABLED: true
+    SOUND: 'EXPLODE; 10.0f; 10.0f'
+EFFECTS_PLAYER:
+  USE_EFFECTS: true
+  LIST_OF_EFFECTS:
+    - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+    - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+    - 'NOTE;60;2.0;2.0;2.0;2.0'
+AVATAR_MESSAGES:
+  ENABLED: true
+  AVATAR_URL:
+    - 'https://minotar.net/helm/{Player}/8.png'
+    - 'https://cravatar.eu/helmavatar/{Player}/8.png'
+    - 'https://mc-heads.net/avatar/{Player}/8'
+  DONATOR:
+    - '<center>&f&l** &6You &epurchased &6{Package}&e! &f&l**</center>'
+    - '<center>&f&l** &eThank you for your kind donation! &f&l**</center>'
+    - ''
+    - '<center>&eRemember that thanks to your donations</center>'
+    - '<center>&eWe can add new unique features!</center>'
+    - ''
+    - '<center>&7&o(( Donations help us keep the network alive! ))</center>'
+    - ''
+MESSAGE_DONATE:
+  ENABLED: false
+  DONATOR:
+    - ''
+    - '<center>&f&l** &6You &epurchased &6{Package}&e! &f&l**</center>'
+    - '<center>&f&l** &eThank you for your kind donation! &f&l**</center>'
+    - ''
+    - '<center>&eRemember that thanks to your donations</center>'
+    - '<center>&eWe can add new unique features!</center>'
+    - ''
+    - '<center>&7&o(( Donations help us keep the network alive! ))</center>'
+    - ''
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
