@@ -1,0 +1,65 @@
+#                    ___                         ___           ___            ___
+#     _____         /\__\                       /\  \         /|  |          /\__\
+#    /::\  \       /:/ _/_                      \:\  \       |:|  |         /:/ _/_
+#   /:/\:\  \     /:/ /\__\                      \:\  \      |:|  |        /:/ /\__\
+#  /:/  \:\__\   /:/ /:/ _/_   ___     ___   ___  \:\  \   __|:|__|       /:/ /:/ _/_
+# /:/__/ \:|__| /:/_/:/ /\__\ /\  \   /\__\ /\  \  \:\__\ /::::\__\_____ /:/_/:/ /\__\
+# \:\  \ /:/  / \:\/:/ /:/  / \:\  \ /:/  / \:\  \ /:/  / ~~~~\::::/___/ \:\/:/ /:/  /
+#  \:\  /:/  /   \::/_/:/  /   \:\  /:/  /   \:\  /:/  /      |:|~~|      \::/_/:/  /
+#   \:\/:/  /     \:\/:/  /     \:\/:/  /     \:\/:/  /       |:|  |       \:\/:/  /
+#    \::/  /       \::/  /       \::/  /       \::/  /        |:|__|        \::/  /
+#     \/__/         \/__/         \/__/         \/__/         |/__/          \/__/
+
+# ===================
+# Language: Spanish =
+# By: Ruben_Artz    =
+# ===================
+MESSAGE_USING: '&cEste servidor está usando Deluxe Announce <ver>'
+MESSAGE_USING_BOX: '&f &8▪ &fHaga clic para ver los comandos.'
+MESSAGE_TIP: '&9TIP&f, Coloque el cursor en el mensaje y haga clic para seleccionar.'
+MESSAGE_RELOAD: '&7Cargue la configuración del complemento.'
+MESSAGE_RELOAD_BOX: '&f &8▪ &fCargue la configuración del complemento.'
+MESSAGE_HELP: '&7Ver los comandos disponibles.'
+MESSAGE_HELP_BOX: '&f &8▪ &fHaga clic para ver los comandos.'
+MESSAGE_ANNOUNCE: '&7Envía el mensaje global.'
+MESSAGE_ANNOUNCE_BOX: '&f §8▪ &fEnvía el mensaje global.'
+MESSAGE_GUI: '&7Configure el complemento desde la interfaz gráfica de usuario.'
+MESSAGE_GUI_BOX: '&f &8▪ &fHaga clic para abrir la interfaz gráfica de usuario.'
+MESSAGE_OLD_VER: '&fTienes una versión anterior del complemento. Usted está'
+MESSAGE_OLD_NEW: '&fUsando &e<old>&f, versión disponible &e<new>'
+MESSAGE_TITLE_UPDATE:
+  - '&8[&9Deluxe Announce&8];10;10;50;&fVersión antigua &e<old> &fNueva versión &e<new>;10;10;50;'
+MESSAGE_UPDATE_ACTIONBAR: '&cDescargue la última versión &e<new>'
+MESSAGE_RELOAD_CONFIGS: '&aEl {File} archivo fue recargado!'
+MESSAGE_FILE_NOT_FOUND: '&cEl archivo con nombre {File} ¡extraviado!'
+MESSAGE_NO_ARGS: '&cUso Correcto: /acs announce <text>'
+MESSAGE_DONATE: '&7¡Envía un mensaje a un jugador de tu donación!'
+MESSAGE_DONATE_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
+MESSAGE_ACTIONBAR: '&7Envía un mensaje global.'
+MESSAGE_ACTIONBAR_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
+MESSAGE_BOSSBAR: '&7Envía un mensaje global.'
+MESSAGE_BOSSBAR_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
+MESSAGE_TOGGLE: '&7Activa o desactiva la entrada del sorteo.'
+MESSAGE_TOGGLE_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
+MESSAGE_GIVEAWAY: '&7Elige el ganador.'
+MESSAGE_GIVEAWAY_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
+MESSAGE_CLEAR_MESSAGE: '&7Borrar todas las entradas del sorteo.'
+MESSAGE_CLEAR_MESSAGE_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
+MESSAGE_COMMAND_RELOAD:
+  MESSAGE_RELOAD:
+    - '&aRecargando configuraciones ...'
+    - '&a¡Complemento cargado correctamente!'
+  MESSAGE_TITLE:
+    - '<exclusive>;&7(( Todas las configuraciones se reiniciarón. ))'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
