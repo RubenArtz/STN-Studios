@@ -98,6 +98,10 @@ LOBBY_COMMAND:
   ENABLED: true
   PERMISSION: 'advancedproxy.command.lobby'
   UNKNOWN_SERVER: '&8[&9Advanced Proxy&8] &cThis server not exists...'
+  ALIASES:
+    - 'hub'
+    - 'lobby'
+    - 'main'
   SERVERS:
     - 'lobby'
     - 'lobby1'
@@ -171,6 +175,9 @@ COMMANDS:
   SERVERS:
     ENABLED: true
     PERMISSION_BUNGEE_SERVER: 'bungeecord.command.server'
+  PERMISSIONS:
+    ENABLED: true
+    PERMISSION_BUNGEE_PERMS: 'bungeecord.command.permission'
 
 #      ___           ___
 #     /\__\         /\  \         _____
