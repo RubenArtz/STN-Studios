@@ -18,6 +18,7 @@ MESSAGES:
   RELOAD_CONFIG: '&a모든 설정이 리로드 되었습니다!'
   COMMAND_USE_MAINTENANCE: '&c잘못된 커맨드입니다! /{Command} maintenance toggle|add|remove 를 쓰세요!'
   INVALID_COMMAND: '&c잘못된 커맨드입니다! /{Command} help 를 쓰세요!'
+  MESSAGE_NO_CONSOLE: '&cT그의 명령은 플레이어 만 사용할 수 있습니다.'
   MAINTENANCE_DISABLED: '&c점검모드가 &c{Sender}에 의해 꺼졌습니다!'
   MAINTENANCE_ENABLED: '&a점검모드가 {Sender}에 의해 켜졌습니다!'
   MAINTENANCE_KICK: '&c이 네트워크는 지금 점검중에 있습니다!'
@@ -45,6 +46,24 @@ MESSAGES:
   MESSAGE_USING: '&c이 서버는 BungeeAdvancedProxy를 쓰고 있습니다 {Version}!'
   MESSAGE_FILE_NOT_FOUND: '&c{File} 이름으로 된 파일을 찾을수 없습니다!'
   MESSAGE_RELOAD_CONFIGS: '&a{File} 이 리로드 되었습니다!'
+  MESSAGE_BACK: '&8[&c뒤 ←&8] &7다음 페이지로 돌아갑니다.'
+  MESSAGE_BACK_BOX: '&f &8▪ &f기본 명령 목록으로 돌아갑니다.'
+  MESSAGE_NEXT: '&8[&a다음 →&8] &7다음 페이지로 이동하십시오.'
+  MESSAGE_NEXT_BOX: '&f &8▪ &f다음 명령 페이지로 이동하십시오.'
+  MESSAGE_ALERT_BUNGEE: '&7글로벌 메시지를 보내십시오.'
+  MESSAGE_ALERT_BUNGEE_BOX: '&f &8▪ &f이 메시지를 클릭하여 조치를 확인하십시오.'
+  MESSAGE_BUNGEE_BUNGEE: '&7사용중인 번지 코드 버전을 확인하십시오.'
+  MESSAGE_BUNGEE_BUNGEE_BOX: '&f &8▪ &f이 메시지를 클릭하여 명령을 실행하십시오.'
+  MESSAGE_END_BUNGEE: '&7서버를 완전히 종료하십시오.'
+  MESSAGE_END_BUNGEE_BOX: '&f &8▪ &f이 메시지를 클릭하여 조치를 확인하십시오.'
+  MESSAGE_FIND_BUNGEE: '&7서버 전체에서 플레이어를 찾으십시오'
+  MESSAGE_FIND_BUNGEE_BOX: '&f &8▪ &f이 메시지를 클릭하여 조치를 확인하십시오.'
+  MESSAGE_IP_BUNGEE: '&7플레이어의 실제 IP를 보여줍니다.'
+  MESSAGE_IP_BUNGEE_BOX: '&f &8▪ &f이 메시지를 클릭하여 조치를 확인하십시오.'
+  MESSAGE_GLIST_BUNGEE: '&7서버에있는 실제 플레이어를 표시합니다.'
+  MESSAGE_GLIST_BUNGEE_BOX: '&f &8▪ &f이 메시지를 클릭하여 명령을 실행하십시오.'
+  MESSAGE_PERMS_BUNGEE: '&7현재 어떤 권한이 있는지 확인하십시오.'
+  MESSAGE_PERMS_BUNGEE_BOX: '&f &8▪ &f이 메시지를 클릭하여 명령을 실행하십시오.'
   PROXY_COMMANDS:
     MESSAGE_NO_PERMISSIONS: "&c당신은 그 커맨드를 쓰기위한 권한이 없습니다!"
     MESSAGE_BUNGEE_VERSION: '&c이 서버가 실행 중입니다 &fSTN-Studios &c버전 &c{Version} &c으로 Ruben_Artz &b(PLAY.STN-STUDIOS.COM @ (C) 2019-2020)'
@@ -78,6 +97,9 @@ MESSAGES:
     MEESAGE_USE_IP: '&c잘못된 커맨드입니다! "/ip [player]" 를 써서 플레이어의 ip를 알아낼수 있습니다!'
     MESSAGE_NO_IP_PLAYER: '&c{Player} 플레이어가 오프라인입니다!'
     MESSAGE_SUCCESS_IP_PLAYER: '&a플레이어의 아이피는 &e{Address} &a입니다!'
+    MESSAGE_USE_PERMISSION_COMMAND: '&c잘못 사용! 권한 목록을 보려면 "/perms"'
+    MESSAGE_PERMISSION_UP: '&b사용 가능한 모든 권한 목록:'
+    MESSAGE_PERMISSION_BELOW: '&f➜ &7{Permissions} &e...✍'
 
 #      ___           ___
 #     /\__\         /\  \         _____
