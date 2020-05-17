@@ -18,6 +18,7 @@ MESSAGES:
   RELOAD_CONFIG: '&aAll configurations were loaded!'
   COMMAND_USE_MAINTENANCE: '&cIncorrect usage! Use /{Command} maintenance toggle|add|remove'
   INVALID_COMMAND: '&cInvalid command! Use /{Command} help'
+  MESSAGE_NO_CONSOLE: '&cThis command is only available to players.'
   MAINTENANCE_DISABLED: '&cThe maintenance mode was successfully disabled by &c{Sender}'
   MAINTENANCE_ENABLED: '&aThe maintenance mode was successfully enabled by {Sender}'
   MAINTENANCE_KICK: '&cThis network is in maintenance mode!'
@@ -45,6 +46,24 @@ MESSAGES:
   MESSAGE_USING: '&cThis server is using BungeeAdvancedProxy {Version}'
   MESSAGE_FILE_NOT_FOUND: '&cThe file with name {File} not found!'
   MESSAGE_RELOAD_CONFIGS: '&aThe {File} file was reloaded!'
+  MESSAGE_BACK: '&8[&cBack ←&8] &7Return to the next page.'
+  MESSAGE_BACK_BOX: '&f &8▪ &fReturns to the main list of commands.'
+  MESSAGE_NEXT: '&8[&aNext →&8] &7Go to the next page.'
+  MESSAGE_NEXT_BOX: '&f &8▪ &fGo to the next command page.'
+  MESSAGE_ALERT_BUNGEE: '&7Send a global message.'
+  MESSAGE_ALERT_BUNGEE_BOX: '&f &8▪ &fClick on this message to confirm the action.'
+  MESSAGE_BUNGEE_BUNGEE: '&7Check the version of bungeecord you are using.'
+  MESSAGE_BUNGEE_BUNGEE_BOX: '&f &8▪ &fClick on this message to execute the command.'
+  MESSAGE_END_BUNGEE: '&7Completely shutdown the server.'
+  MESSAGE_END_BUNGEE_BOX: '&f &8▪ &fClick on this message to confirm the action.'
+  MESSAGE_FIND_BUNGEE: '&7Find a player all over the server'
+  MESSAGE_FIND_BUNGEE_BOX: '&f &8▪ &fClick on this message to confirm the action.'
+  MESSAGE_IP_BUNGEE: '&7It shows the real ip of the player.'
+  MESSAGE_IP_BUNGEE_BOX: '&f &8▪ &fClick on this message to confirm the action.'
+  MESSAGE_GLIST_BUNGEE: '&7Shows the real players that are on the server.'
+  MESSAGE_GLIST_BUNGEE_BOX: '&f &8▪ &fClick on this message to execute the command.'
+  MESSAGE_PERMS_BUNGEE: '&7Check what permissions you have at the moment.'
+  MESSAGE_PERMS_BUNGEE_BOX: '&f &8▪ &fClick on this message to execute the command.'
   PROXY_COMMANDS:
     MESSAGE_NO_PERMISSIONS: "&cYou don't have permissions to use that command!"
     MESSAGE_BUNGEE_VERSION: '&cThis server is running &fSTN-Studios &cversion &c{Version} &cby Ruben_Artz &b(PLAY.STN-STUDIOS.COM @ (C) 2019-2020)'
@@ -59,7 +78,7 @@ MESSAGES:
       &c  - The server is rebooting
       &c  - Come back in a few minutes!
     MEESAGE_USE_END: '&cIncorrect usage! Use "/end" turn off the server!'
-    MEESAGE_USE_FIND: '&cIncorrect usage! Use "/find" find a player!'
+    MEESAGE_USE_FIND: '&cIncorrect usage! Use "/find <player>" find a player!'
     MESSAGE_FIND_NO_PLAYER: '&cThe player {Player} is offline!'
     MESSAGE_FIND_PLAYER: |-
       &f
@@ -78,6 +97,9 @@ MESSAGES:
     MEESAGE_USE_IP: '&cIncorrect usage! Use "/ip [player]" show player ip!'
     MESSAGE_NO_IP_PLAYER: '&cThe player {Player} is offline!'
     MESSAGE_SUCCESS_IP_PLAYER: '&aIP address player is &e{Address}'
+    MESSAGE_USE_PERMISSION_COMMAND: '&cIncorrect use! "/perms" to see the list of permissions.'
+    MESSAGE_PERMISSION_UP: '&bList of all available permissions:'
+    MESSAGE_PERMISSION_BELOW: '&f➜ &7{Permissions} &e...✍'
 
 #      ___           ___
 #     /\__\         /\  \         _____
