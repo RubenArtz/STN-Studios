@@ -18,6 +18,7 @@ MESSAGES:
   RELOAD_CONFIG: '&a所有配置都已加載！'
   COMMAND_USE_MAINTENANCE: '&c使用不正確！ 使用 /{Command} maintenance toggle|add|remove'
   INVALID_COMMAND: '&c命令無效！ 使用 /{Command} help'
+  MESSAGE_NO_CONSOLE: '&c該命令僅對玩家可用。'
   MAINTENANCE_DISABLED: '&c維護模式已成功禁用 &c{Sender}'
   MAINTENANCE_ENABLED: '&a維護模式已成功啟用 {Sender}'
   MAINTENANCE_KICK: '&c該網絡處於維護模式！'
@@ -45,6 +46,24 @@ MESSAGES:
   MESSAGE_USING: '&c這個服務器正在使用 BungeeAdvancedProxy {Version}'
   MESSAGE_FILE_NOT_FOUND: '&c帶有名稱的文件 {File} 未找到！'
   MESSAGE_RELOAD_CONFIGS: '&a的 {File} 文件已重新加載！'
+  MESSAGE_BACK: '&8[&c背部 ←&8] &7Return to the next page.'
+  MESSAGE_BACK_BOX: '&f &8▪ &f返回命令主列表。'
+  MESSAGE_NEXT: '&8[&a下一個 →&8] &7轉到下一頁。'
+  MESSAGE_NEXT_BOX: '&f &8▪ &f轉到下一個命令頁面。'
+  MESSAGE_ALERT_BUNGEE: '&7發送全局消息。'
+  MESSAGE_ALERT_BUNGEE_BOX: '&f &8▪ &f單擊此消息以確認操作。'
+  MESSAGE_BUNGEE_BUNGEE: '&7檢查您使用的Bungeecord的版本。'
+  MESSAGE_BUNGEE_BUNGEE_BOX: '&f &8▪ &f單擊此消息以執行命令。'
+  MESSAGE_END_BUNGEE: '&7完全關閉服務器。'
+  MESSAGE_END_BUNGEE_BOX: '&f &8▪ &f單擊此消息以確認操作。'
+  MESSAGE_FIND_BUNGEE: '&7查找整個服務器上的播放器'
+  MESSAGE_FIND_BUNGEE_BOX: '&f &8▪ &f單擊此消息以確認操作。'
+  MESSAGE_IP_BUNGEE: '&7它顯示了播放器的真實IP。'
+  MESSAGE_IP_BUNGEE_BOX: '&f &8▪ &f單擊此消息以確認操作。'
+  MESSAGE_GLIST_BUNGEE: '&7顯示服務器上的真實播放器。'
+  MESSAGE_GLIST_BUNGEE_BOX: '&f &8▪ &f單擊此消息以執行命令。'
+  MESSAGE_PERMS_BUNGEE: '&7檢查您目前擁有的權限。'
+  MESSAGE_PERMS_BUNGEE_BOX: '&f &8▪ &f單擊此消息以執行命令。'
   PROXY_COMMANDS:
     MESSAGE_NO_PERMISSIONS: "&c您沒有使用該命令的權限！"
     MESSAGE_BUNGEE_VERSION: '&c該服務器正在運行 &fSTN-Studios &c版 &c{Version} &c通過 Ruben_Artz &b(PLAY.STN-STUDIOS.COM @ (C) 2019-2020)'
@@ -78,6 +97,9 @@ MESSAGES:
     MEESAGE_USE_IP: '&c使用方法不正確！ 採用 "/ip [player]" 顯示播放器ip！'
     MESSAGE_NO_IP_PLAYER: '&c玩家 {Player} 離線！'
     MESSAGE_SUCCESS_IP_PLAYER: '&aIP地址播放器 是 &e{Address}'
+    MESSAGE_USE_PERMISSION_COMMAND: '&c錯誤使用！ “ /perms”查看權限列表。'
+    MESSAGE_PERMISSION_UP: '&b所有可用權限的列表：'
+    MESSAGE_PERMISSION_BELOW: '&f➜ &7{Permissions} &e...✍'
 
 #      ___           ___
 #     /\__\         /\  \         _____
