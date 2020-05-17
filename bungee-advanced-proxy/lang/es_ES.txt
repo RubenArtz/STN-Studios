@@ -18,6 +18,7 @@ MESSAGES:
   RELOAD_CONFIG: '&aTodas las configuraciones fueron cargadas!'
   COMMAND_USE_MAINTENANCE: '&cUso incorrecto! Utilizar /{Command} maintenance toggle|add|remove'
   INVALID_COMMAND: '&c¡Comando inválido! Utilizar /{Command} help'
+  MESSAGE_NO_CONSOLE: '&cEste comando solo está disponible para jugadores.'
   MAINTENANCE_DISABLED: '&cEl modo de mantenimiento fue deshabilitado con éxito por &c{Sender}'
   MAINTENANCE_ENABLED: '&aEl modo de mantenimiento fue habilitado con éxito por {Sender}'
   MAINTENANCE_KICK: '&c¡Esta red está en modo de mantenimiento!'
@@ -45,6 +46,24 @@ MESSAGES:
   MESSAGE_USING: '&cEste servidor está usando BungeeAdvancedProxy {Version}'
   MESSAGE_FILE_NOT_FOUND: '&cNombre del archivo {File} no existe!'
   MESSAGE_RELOAD_CONFIGS: '&aArchivo {File} fue recargado!'
+  MESSAGE_BACK: '&8[&cRegresar ←&8] &7Regrese a la página siguiente.'
+  MESSAGE_BACK_BOX: '&f &8▪ &fRegresa a la lista principal de comandos.'
+  MESSAGE_NEXT: '&8[&aSiguiente →&8] &7Ir a la siguiente página'
+  MESSAGE_NEXT_BOX: '&f &8▪ &fIr a la siguiente página de comando.'
+  MESSAGE_ALERT_BUNGEE: '&7Envía un mensaje global.'
+  MESSAGE_ALERT_BUNGEE_BOX: '&f &8▪ &fHaga clic en este mensaje para confirmar la acción.'
+  MESSAGE_BUNGEE_BUNGEE: '&7Verifique la versión de bungeecord que está utilizando.'
+  MESSAGE_BUNGEE_BUNGEE_BOX: '&f &8▪ &fHaga clic en este mensaje para ejecutar el comando.'
+  MESSAGE_END_BUNGEE: '&7Apaga completamente el servidor.'
+  MESSAGE_END_BUNGEE_BOX: '&f &8▪ &fHaga clic en este mensaje para confirmar la acción.'
+  MESSAGE_FIND_BUNGEE: '&7Encuentra un jugador en todo el servidor.'
+  MESSAGE_FIND_BUNGEE_BOX: '&f &8▪ &fHaga clic en este mensaje para confirmar la acción.'
+  MESSAGE_IP_BUNGEE: '&7Muestra la ip real del jugador.'
+  MESSAGE_IP_BUNGEE_BOX: '&f &8▪ &fHaga clic en este mensaje para confirmar la acción.'
+  MESSAGE_GLIST_BUNGEE: '&7Muestra los jugadores reales que están en el servidor.'
+  MESSAGE_GLIST_BUNGEE_BOX: '&f &8▪ &fHaga clic en este mensaje para ejecutar el comando.'
+  MESSAGE_PERMS_BUNGEE: '&7Comprueba qué permisos tienes en este momento.'
+  MESSAGE_PERMS_BUNGEE_BOX: '&f &8▪ &fHaga clic en este mensaje para ejecutar el comando.'
   PROXY_COMMANDS:
     MESSAGE_NO_PERMISSIONS: "&c¡No tienes permisos para usar ese comando!"
     MESSAGE_BUNGEE_VERSION: '&cEste servidor está usando &fSTN-Studios &cversión &c{Version} &cpor Ruben_Artz &b(PLAY.STN-STUDIOS.COM @ (C) 2019-2020)'
@@ -59,7 +78,7 @@ MESSAGES:
       &c  - El servidor se está reiniciando
       &c  - vuelve en unos minutos!
     MEESAGE_USE_END: '&cUso incorrecto! Utilizar "/end" apague el servidor!'
-    MEESAGE_USE_FIND: '&cUso incorrecto! Utilizar "/find" encuentra un jugador!'
+    MEESAGE_USE_FIND: '&cUso incorrecto! Utilizar "/find <player>" encuentra un jugador!'
     MESSAGE_FIND_NO_PLAYER: '&cEl jugador {Player} fuera de linea!'
     MESSAGE_FIND_PLAYER: |-
       &f
@@ -78,6 +97,9 @@ MESSAGES:
     MEESAGE_USE_IP: '&cUso incorrecto! Utilizar "/ip [player]" mostrar jugador ip!'
     MESSAGE_NO_IP_PLAYER: '&cEl jugador {Player} fuera de linea!'
     MESSAGE_SUCCESS_IP_PLAYER: '&aIp del jugador es &e{Address}'
+    MESSAGE_USE_PERMISSION_COMMAND: '&cUso incorrecto! "/perms" para ver la lista de permisos.'
+    MESSAGE_PERMISSION_UP: '&bLista de todos los permisos disponibles:'
+    MESSAGE_PERMISSION_BELOW: '&f➜ &7{Permissions} &e...✍'
 
 #      ___           ___
 #     /\__\         /\  \         _____
