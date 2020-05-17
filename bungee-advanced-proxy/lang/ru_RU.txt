@@ -1,0 +1,114 @@
+#      ___         ___           ___           ___
+#     /\  \       /\  \         /\  \         /|  |
+#    /::\  \     /::\  \       /::\  \       |:|  |           ___
+#   /:/\:\__\   /:/\:\__\     /:/\:\  \      |:|  |          /|  |
+#  /:/ /:/  /  /:/ /:/  /    /:/  \:\  \   __|:|__|         |:|  |
+# /:/_/:/  /  /:/_/:/__/___ /:/__/ \:\__\ /::::\__\_____    |:|  |
+# \:\/:/  /   \:\/:::::/  / \:\  \ /:/  / ~~~~\::::/___/  __|:|__|
+#  \::/__/     \::/~~/~~~~   \:\  /:/  /      |:|~~|     /::::\  \
+#   \:\  \      \:\~~\        \:\/:/  /       |:|  |     ~~~~\:\  \
+#    \:\__\      \:\__\        \::/  /        |:|__|          \:\__\
+#     \/__/       \/__/         \/__/         |/__/            \/__/
+
+# ============================
+# Language: Russian(Русский) =
+# By: CXMorgan               =
+# ============================
+MESSAGES:
+  RELOAD_CONFIG: '&aВсе конфигурации перезагружены!'
+  COMMAND_USE_MAINTENANCE: '&cНекорректное использование! Используйте /{Command} maintenance toggle|add|remove'
+  INVALID_COMMAND: '&cНеправильная команда! Используйте /{Command} help'
+  MESSAGE_NO_CONSOLE: '&cЭта команда доступна только для игроков.'
+  MAINTENANCE_DISABLED: '&cРежим обслуживания был отключен Администратором &c{Sender}'
+  MAINTENANCE_ENABLED: '&aРежим обслуживания был включен Администратором &f{Sender}'
+  MAINTENANCE_KICK: '&cСервер на обслуживании! Попробуйте подключиться позже!'
+  COMMAND_USE_ADD: '&cНекорректное использование! Используйте /{Command} maintenance add <player>'
+  COMMAND_USE_REMOVE: '&cНекорректное использование! Используйте /{Command} maintenance remove <player>'
+  WHITELIST_ALREADY_ADDED: '&c{Player} уже в вайт-листе режима обслуживания!'
+  WHITELIST_ADDED: '&cAИгрок {Player} добавлен в вайт-лист режима обслуживания!'
+  WHITELIST_REMOVED: '&cИгрок {Player} удален из вайт-листа режима обслуживания!'
+  WHITELIST_NOT_FOUND: '&cЭтот игрок не находится в вайт-листе!'
+  OUTDATED_CLIENT: '&cЭта версия Minecraft не поддерживается!'
+  ADDRESS_LIMIT: '&cПревышен лимит подключений с одного IP адреса!'
+  MESSAGE_TIP: '&9ПОДСКАЗКА&f, Наведите курсор на сообщение и кликните на него,чтобы выбрать команду.'
+  MESSAGE_RELOAD: '&7Загрузка конфигураций плагина.'
+  MESSAGE_RELOAD_BOX: '&f &8▪ &fЗагрузка конфигураций...'
+  MESSAGE_HELP: '&7Просмотреть доступные команды.'
+  MESSAGE_HELP_BOX: '&f &8▪ &fНажмите, чтобы посмотреть доступные команды.'
+  MESSAGE_HELP_PLUGINS: '&7Просмотреть доступные плагины.'
+  MESSAGE_HELP_BOX_PLUGINS: '&f &8▪ &fНажмите,чтобы просмотреть доступные плагины.'
+  MESSAGE_MAINTENANCE_TOGGLE: '&7Включить или отключить режим "Тех. обслуживания".'
+  MESSAGE_MAINTENANCE_TOGGLE_BOX: '&f &8▪ &fНажмите, чтобы выполнить команду.'
+  MESSAGE_MAINTENANCE_ADD: '&7Добавить игрока в &7вайт-лист'
+  MESSAGE_MAINTENANCE_ADD_BOX: '&f &8▪ &fНажмите, чтобы выполнить команду.'
+  MESSAGE_MAINTENANCE_REMOVE: '&7Удалить игрока из &7вайт-листа.'
+  MESSAGE_MAINTENANCE_REMOVE_BOX: '&f &8▪ &fНажмите,чтобы выполнить команду.'
+  MESSAGE_USING: '&cСервер использует BungeeAdvancedProxy версии {Version}'
+  MESSAGE_FILE_NOT_FOUND: '&cФайл под названием {File} не найден!'
+  MESSAGE_RELOAD_CONFIGS: '&aФайл {File} был перезагружен!'
+  MESSAGE_BACK: '&8[&cназад ←&8] &7Вернуться на следующую страницу.'
+  MESSAGE_BACK_BOX: '&f &8▪ &fВозврат к основному списку команд.'
+  MESSAGE_NEXT: '&8[&aследующий →&8] &7Перейти на следующую страницу.'
+  MESSAGE_NEXT_BOX: '&f &8▪ &fПерейти на следующую страницу команд.'
+  MESSAGE_ALERT_BUNGEE: '&7Отправить глобальное сообщение.'
+  MESSAGE_ALERT_BUNGEE_BOX: '&f &8▪ &fНажмите на это сообщение, чтобы подтвердить действие.'
+  MESSAGE_BUNGEE_BUNGEE: '&7Проверьте версию bungeecord, которую вы используете.'
+  MESSAGE_BUNGEE_BUNGEE_BOX: '&f &8▪ &fНажмите на это сообщение, чтобы выполнить команду.'
+  MESSAGE_END_BUNGEE: '&7Полностью отключите сервер.'
+  MESSAGE_END_BUNGEE_BOX: '&f &8▪ &fНажмите на это сообщение, чтобы подтвердить действие.'
+  MESSAGE_FIND_BUNGEE: '&7Найти игрока на всем сервере'
+  MESSAGE_FIND_BUNGEE_BOX: '&f &8▪ &fНажмите на это сообщение, чтобы подтвердить действие.'
+  MESSAGE_IP_BUNGEE: '&7Показывает реальный ip плеера.'
+  MESSAGE_IP_BUNGEE_BOX: '&f &8▪ &fНажмите на это сообщение, чтобы подтвердить действие.'
+  MESSAGE_GLIST_BUNGEE: '&7Показывает реальных игроков, которые находятся на сервере.'
+  MESSAGE_GLIST_BUNGEE_BOX: '&f &8▪ &fНажмите на это сообщение, чтобы выполнить команду.'
+  MESSAGE_PERMS_BUNGEE: '&7Проверьте, какие разрешения у вас есть на данный момент.'
+  MESSAGE_PERMS_BUNGEE_BOX: '&f &8▪ &fНажмите на это сообщение, чтобы выполнить команду.'
+  PROXY_COMMANDS:
+    MESSAGE_NO_PERMISSIONS: "&cУ вас нет прав для выполнения этой команды!"
+    MESSAGE_BUNGEE_VERSION: '&cСервер использует &fSTN-Studios &cверсии &c{Version} &cby Ruben_Artz &b(PLAY.STN-STUDIOS.COM @ (C) 2019-2020)'
+    MESSAGE_USE_BUNGEE: '&cНекорректное использование! Используйте "/bungee" tчтобы посмотреть версию!'
+    MESSAGE_ALERT_BUNGEE: '&cНекорректное использование! Используйте "/alert [message]" чтобы отправить сообщение!'
+    MESSAGE_ALERT_SEND: '&c[¡] Внимание: {Announce} [!]'
+    MESSAGE_END_KICK: |-
+      &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
+      &f
+      &7     &c** ОШИБКА **
+      &f
+      &c  - Сервер перезагружается
+      &c  - Перезайдите через несколько минут!
+    MEESAGE_USE_END: '&cНекорректное использование! Используйте "/end" чтобы отключить сервер!'
+    MEESAGE_USE_FIND: '&cНекорректное использование! Используйте "/find" чтобы найти игрока!'
+    MESSAGE_FIND_NO_PLAYER: '&cИгрок {Player} сейчас не в сети!'
+    MESSAGE_FIND_PLAYER: |-
+      &f
+      &8« » ============== &e✯ &9&lAdvanced Proxy &e✯ &8============== « »
+                                            &e♕ &9&lＳＴＮ &f&lＮＥＴＷＯＲＫ &e♕
+      &f
+      &fИгрок: &a{Player}
+      &fСервер: &a{Server}
+      &f
+      &8« » =============================================== « »
+      &f
+    MEESAGE_USE_LIST: '&cНекорректное использование! Используйте "/glist" чтобы посмотреть полный список игроков в сети!'
+    MESSAGE_GLIST_HEADER: '&cAДоступные сервера:'
+    MESSAGE_GLIST_SERVERS: '&8» &e{Server} &7- &c{Players} &b{Online}'
+    MESSAGE_GLIST_FOOTER: '&e» &e&l{Total} &eподключенных игроков.'
+    MEESAGE_USE_IP: '&cНекорректное использование! Используйте "/ip [player]" чтобы просмотреть IP игрока!'
+    MESSAGE_NO_IP_PLAYER: '&cИгрок {Player} не в сети!'
+    MESSAGE_SUCCESS_IP_PLAYER: '&aIP адрес игрока - &e{Address}'
+    MESSAGE_USE_PERMISSION_COMMAND: '&cIncorrect use! "/perms" to see the list of permissions.'
+    MESSAGE_PERMISSION_UP: '&bList of all available permissions:'
+    MESSAGE_PERMISSION_BELOW: '&f➜ &7{Permissions} &e...✍'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
