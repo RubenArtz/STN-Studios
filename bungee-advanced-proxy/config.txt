@@ -29,10 +29,10 @@ MAINTENANCE_MODE:
   FAVICON:
     - maintenance-mode.png
   MOTD:
-    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &f&l&n[&6&l&n9&e&l&n5&f&l&n% &6&l&nO&e&l&nF&f&l&nF &e&l&nS&6&l&nA&f&l&nL&e&l&nE!&f&l&n]&f;<section>&f&lSTATUS: &c&lIN MAINTENANCE&7, &b&lCHECK OUR FORUM.</section>'
-    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &4&l&n[&c&l&n9&f&l&n5&4&l&n% &c&l&nO&f&l&nF&4&l&nF &c&l&nS&f&l&nA&4&l&nL&c&l&nE&f&l!&4&l&n]&f;<section>&f&lSTATUS: &c&lIN MAINTENANCE&7, &b&lCHECK OUR FORUM.</section>'
-    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &3&l&n[&d&l&n9&b&l&n5&3&l&n% &d&l&nO&b&l&nF&3&l&nF &d&l&nS&b&l&nA&3&l&nL&d&l&nE&b&l!&3&l&n]&f;<section>&f&lSTATUS: &c&lIN MAINTENANCE&7, &b&lCHECK OUR FORUM.</section>'
-    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &2&l&n[&c&l&n9&a&l&n5&2&l&n% &c&l&nO&a&l&nF&2&l&nF &c&l&nS&a&l&nA&2&l&nL&c&l&nE&a&l!&2&l&n]&f;<section>&f&lSTATUS: &c&lIN MAINTENANCE&7, &b&lCHECK OUR FORUM.</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e™ &c[1.7-1.15] &f&l&n[&6&l&n9&e&l&n5&f&l&n% &6&l&nO&e&l&nF&f&l&nF &e&l&nS&6&l&nA&f&l&nL&e&l&nE!&f&l&n]&f;<section>&f&lSTATUS: &c&lIN MAINTENANCE&7, &b&lCHECK OUR FORUM.</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e™ &c[1.7-1.15] &4&l&n[&c&l&n9&f&l&n5&4&l&n% &c&l&nO&f&l&nF&4&l&nF &c&l&nS&f&l&nA&4&l&nL&c&l&nE&f&l!&4&l&n]&f;<section>&f&lSTATUS: &c&lIN MAINTENANCE&7, &b&lCHECK OUR FORUM.</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e™ &c[1.7-1.15] &3&l&n[&d&l&n9&b&l&n5&3&l&n% &d&l&nO&b&l&nF&3&l&nF &d&l&nS&b&l&nA&3&l&nL&d&l&nE&b&l!&3&l&n]&f;<section>&f&lSTATUS: &c&lIN MAINTENANCE&7, &b&lCHECK OUR FORUM.</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e™ &c[1.7-1.15] &2&l&n[&c&l&n9&a&l&n5&2&l&n% &c&l&nO&a&l&nF&2&l&nF &c&l&nS&a&l&nA&2&l&nL&c&l&nE&a&l!&2&l&n]&f;<section>&f&lSTATUS: &c&lIN MAINTENANCE&7, &b&lCHECK OUR FORUM.</section>'
   COUNT:
     - ''
     - '  &0▉▉▉▉▉▉▉▉&f&7    &9&lＳＴＮ &f&lＳＴＵＤＩＯＳ'
@@ -54,10 +54,10 @@ PROTOCOL_VERSION:
   FAVICON:
     - protocol-version.png
   MOTD:
-    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &f&l&n[&6&l&n9&e&l&n5&f&l&n% &6&l&nO&e&l&nF&f&l&nF &e&l&nS&6&l&nA&f&l&nL&e&l&nE!&f&l&n]&f;<section>&e&lNEW&f&l: SPRING SALE&7, &b&lVISIT OUR SHOP!</section>'
-    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &4&l&n[&c&l&n9&f&l&n5&4&l&n% &c&l&nO&f&l&nF&4&l&nF &c&l&nS&f&l&nA&4&l&nL&c&l&nE&f&l!&4&l&n]&f;<section>&e&lNEW&f&l: SPRING SALE&7, &b&lVISIT OUR SHOP!</section>'
-    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &3&l&n[&d&l&n9&b&l&n5&3&l&n% &d&l&nO&b&l&nF&3&l&nF &d&l&nS&b&l&nA&3&l&nL&d&l&nE&b&l!&3&l&n]&f;<section>&e&lNEW&f&l: SPRING SALE&7, &b&lVISIT OUR SHOP!</section>'
-    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &2&l&n[&c&l&n9&a&l&n5&2&l&n% &c&l&nO&a&l&nF&2&l&nF &c&l&nS&a&l&nA&2&l&nL&c&l&nE&a&l!&2&l&n]&f;<section>&e&lNEW&f&l: SPRING SALE&7, &b&lVISIT OUR SHOP!</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e™ &c[1.7-1.15] &f&l&n[&6&l&n9&e&l&n5&f&l&n% &6&l&nO&e&l&nF&f&l&nF &e&l&nS&6&l&nA&f&l&nL&e&l&nE!&f&l&n]&f;<section>&e&lNEW&f&l: SPRING SALE&7, &b&lVISIT OUR SHOP!</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e™ &c[1.7-1.15] &4&l&n[&c&l&n9&f&l&n5&4&l&n% &c&l&nO&f&l&nF&4&l&nF &c&l&nS&f&l&nA&4&l&nL&c&l&nE&f&l!&4&l&n]&f;<section>&e&lNEW&f&l: SPRING SALE&7, &b&lVISIT OUR SHOP!</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e™ &c[1.7-1.15] &3&l&n[&d&l&n9&b&l&n5&3&l&n% &d&l&nO&b&l&nF&3&l&nF &d&l&nS&b&l&nA&3&l&nL&d&l&nE&b&l!&3&l&n]&f;<section>&e&lNEW&f&l: SPRING SALE&7, &b&lVISIT OUR SHOP!</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e™ &c[1.7-1.15] &2&l&n[&c&l&n9&a&l&n5&2&l&n% &c&l&nO&a&l&nF&2&l&nF &c&l&nS&a&l&nA&2&l&nL&c&l&nE&a&l!&2&l&n]&f;<section>&e&lNEW&f&l: SPRING SALE&7, &b&lVISIT OUR SHOP!</section>'
   COUNT:
     - ''
     - '  &0▉▉▉▉▉▉▉▉&f&7    &9&lＳＴＮ &f&lＳＴＵＤＩＯＳ'
@@ -79,10 +79,10 @@ OUTDATED_CLIENT:
   FAVICON:
     - outdated-client.png
   MOTD:
-    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &f&l&n[&6&l&n9&e&l&n5&f&l&n% &6&l&nO&e&l&nF&f&l&nF &e&l&nS&6&l&nA&f&l&nL&e&l&nE!&f&l&n]&f;<section>&7&o(( Please use &e[1.8-1.15] Minecraft &7&oversion! ))</section>'
-    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &4&l&n[&c&l&n9&f&l&n5&4&l&n% &c&l&nO&f&l&nF&4&l&nF &c&l&nS&f&l&nA&4&l&nL&c&l&nE&f&l!&4&l&n]&f;<section>&7&o(( Please use &e[1.8-1.15] Minecraft &7&oversion! ))</section>'
-    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &3&l&n[&d&l&n9&b&l&n5&3&l&n% &d&l&nO&b&l&nF&3&l&nF &d&l&nS&b&l&nA&3&l&nL&d&l&nE&b&l!&3&l&n]&f;<section>&7&o(( Please use &e[1.8-1.15] Minecraft &7&oversion! ))</section>'
-    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e® &c[1.7-1.15] &2&l&n[&c&l&n9&a&l&n5&2&l&n% &c&l&nO&a&l&nF&2&l&nF &c&l&nS&a&l&nA&2&l&nL&c&l&nE&a&l!&2&l&n]&f;<section>&7&o(( Please use &e[1.8-1.15] Minecraft &7&oversion! ))</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e™ &c[1.7-1.15] &f&l&n[&6&l&n9&e&l&n5&f&l&n% &6&l&nO&e&l&nF&f&l&nF &e&l&nS&6&l&nA&f&l&nL&e&l&nE!&f&l&n]&f;<section>&7&o(( Please use &e[1.7-1.15] Minecraft &7&oversion! ))</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e™ &c[1.7-1.15] &4&l&n[&c&l&n9&f&l&n5&4&l&n% &c&l&nO&f&l&nF&4&l&nF &c&l&nS&f&l&nA&4&l&nL&c&l&nE&f&l!&4&l&n]&f;<section>&7&o(( Please use &e[1.7-1.15] Minecraft &7&oversion! ))</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e™ &c[1.7-1.15] &3&l&n[&d&l&n9&b&l&n5&3&l&n% &d&l&nO&b&l&nF&3&l&nF &d&l&nS&b&l&nA&3&l&nL&d&l&nE&b&l!&3&l&n]&f;<section>&7&o(( Please use &e[1.7-1.15] Minecraft &7&oversion! ))</section>'
+    - '&9&lＳＴＮ &f&lＳＴＵＤＩＯＳ&e™ &c[1.7-1.15] &2&l&n[&c&l&n9&a&l&n5&2&l&n% &c&l&nO&a&l&nF&2&l&nF &c&l&nS&a&l&nA&2&l&nL&c&l&nE&a&l!&2&l&n]&f;<section>&7&o(( Please use &e[1.7-1.15] Minecraft &7&oversion! ))</section>'
   COUNT:
     - '&r'
     - '  &0▉▉▉▉▉▉▉▉&f'
@@ -108,6 +108,12 @@ LOBBY_COMMAND:
     - 'lobby2'
     - 'lobby3'
 FALLEN_SERVER:
+  COMMAND:
+    ENABLED: true
+    COMMANDS:
+      - 'send {Player} lobby'
+      - 'send all lobby'
+      - 'alert &cWork!'
   ENABLED: true
   SERVERS:
     - 'lobby'
@@ -127,7 +133,7 @@ FALLEN_SERVER:
       - ''
       - '<center>&7&o(( The server where you were shut up! ))</center>'
       - ''
-      - '<center>&eCopyright © 2019</center>'
+      - '<center>&eCopyright © 2020</center>'
 ONLINE_PLAYERS:
   CUSTOM:
     ENABLED: false
@@ -147,12 +153,11 @@ ONLINE_PLAYERS:
     MAXIMUM: 2020
 COUNTDOWN:
   TIMEZONE: EET
-  DATE_END: 06/03/20 17:00:00
+  DATE_END: 06/03/21 17:00:00
   DATE_FORMAT: MM/dd/yy HH:mm:ss
 TIME_FORMAT:
   UPTIME_SPLIT: ' '
   COUNTDOWN_SPLIT: ' '
-# If you make a change to activate or deactivate the command you should restart your bungee cord!
 COMMANDS:
   ALERT:
     ENABLE: true
