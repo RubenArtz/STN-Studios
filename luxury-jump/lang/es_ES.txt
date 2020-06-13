@@ -1,0 +1,46 @@
+
+#                    ___           ___            ___           ___
+#                   /\  \         /|  |          /\  \         /\  \
+#                   \:\  \       |:|  |          \:\  \       /::\  \         ___
+#                    \:\  \      |:|  |           \:\  \     /:/\:\__\       /|  |
+#  ___     ___   ___  \:\  \   __|:|__|       ___  \:\  \   /:/ /:/  /      |:|  |
+# /\  \   /\__\ /\  \  \:\__\ /::::\__\_____ /\  \  \:\__\ /:/_/:/__/___    |:|  |
+# \:\  \ /:/  / \:\  \ /:/  / ~~~~\::::/___/ \:\  \ /:/  / \:\/:::::/  /  __|:|__|
+#  \:\  /:/  /   \:\  /:/  /      |:|~~|      \:\  /:/  /   \::/~~/~~~~  /::::\  \
+#   \:\/:/  /     \:\/:/  /       |:|  |       \:\/:/  /     \:\~~\      ~~~~\:\  \
+#    \::/  /       \::/  /        |:|__|        \::/  /       \:\__\          \:\__\
+#     \/__/         \/__/         |/__/          \/__/         \/__/           \/__/
+
+# ===================
+# Language: Spanish =
+# By: Ruben_Artz    =
+# ===================
+
+MESSAGES:
+  MESSAGE_DISABLED: '{Prefix}&cAhora ha deshabilitado el salto ... &c(╯°□°）╯&f︵&7 ┻━┻'
+  MESSAGE_ACTIVATED: '{Prefix}&aAhora has activado el salto ... &b☉&6_&b☉'
+  MESSAGE_ONLY_CONSOLE: '{Prefix}&cEste comando solo puede ser utilizado por jugadores ... &c(╯°□°）╯&f︵&7 ┻━┻'
+  MESSAGE_PERMISSIONS: '&cNo tiene los permisos necesarios para usar este comando... &c(╯°□°）╯&f︵&7 ┻━┻'
+  MESSAGE_RELOAD_CONFIG: '{Prefix}&aLa configuración se estaba recargando correctamente ... &a§l¯\\_(ツ)_/¯'
+  MESSAGE_USING_BOX: '&f &8▪ &fHaga clic para ver los comandos.'
+  MESSAGE_USING_ACTIONBAR: '&cClick en el mensaje'
+  MESSAGE_USING: '&cEste servidor está utilizando Luxury Jump {Version}'
+  MESSAGE_USE_TIP: '&9TIP&f, Coloque el cursor en el mensaje y haga clic para seleccionar.'
+  MESSAGE_USE_RELOAD: '&7Cargue la configuración del complemento.'
+  MESSAGE_USE_RELOAD_BOX: '&f &8▪ &fCargue la configuración del complemento.'
+  MESSAGE_USE_HELP: '&7Ver los comandos disponibles.'
+  MESSAGE_USE_HELP_BOX: '&f &8▪ &fHaga clic para ver los comandos.'
+  MESSAGE_USE_JUMP: '&7Deshabilita o activa el salto.'
+  MESSAGE_USE_JUMP_BOX: '&f &8▪ &fHaga clic aquí para confirmar la acción.'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
