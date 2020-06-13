@@ -1,0 +1,87 @@
+
+#                    ___           ___            ___           ___
+#                   /\  \         /|  |          /\  \         /\  \
+#                   \:\  \       |:|  |          \:\  \       /::\  \         ___
+#                    \:\  \      |:|  |           \:\  \     /:/\:\__\       /|  |
+#  ___     ___   ___  \:\  \   __|:|__|       ___  \:\  \   /:/ /:/  /      |:|  |
+# /\  \   /\__\ /\  \  \:\__\ /::::\__\_____ /\  \  \:\__\ /:/_/:/__/___    |:|  |
+# \:\  \ /:/  / \:\  \ /:/  / ~~~~\::::/___/ \:\  \ /:/  / \:\/:::::/  /  __|:|__|
+#  \:\  /:/  /   \:\  /:/  /      |:|~~|      \:\  /:/  /   \::/~~/~~~~  /::::\  \
+#   \:\/:/  /     \:\/:/  /       |:|  |       \:\/:/  /     \:\~~\      ~~~~\:\  \
+#    \::/  /       \::/  /        |:|__|        \::/  /       \:\__\          \:\__\
+#     \/__/         \/__/         |/__/          \/__/         \/__/           \/__/
+
+LUXURY:
+  SETTINGS:
+    UPDATE_CHECKER: true
+    LANG: 'en_US'
+    ENABLE_JOIN: true
+    WORLD_WHITELIST:
+      WORLDS:
+        - 'world'
+    POTION:
+      ENABLED: true
+      EFFECTS:
+        # Name;Level;Duration
+        - 'SPEED;2;2'
+        #- 'GLOWING;0;2'
+    SOUND:
+      ENABLED: true
+      SOUND: 'BAT_TAKEOFF; 1.0f; 1.0f'
+    PARTICLES:
+      ENABLED: true
+      PARTICLES:
+        - 'LAVA;10'
+    FIREWORKS:
+      ENABLED: true
+      COLORS:
+        - 'YELLOW'
+        #- 'WHITE'
+        #- 'AQUA'
+        #- 'BLUE'
+        #- 'FUCHSIA'
+        #- 'GRAY'
+        #- 'MAROON'
+        #- 'NAVY'
+        #- 'OLIVE'
+        #- 'ORANGE'
+        #- 'PURPLE'
+        #- 'RED'
+        #- 'TEAL'
+COMMANDS:
+  DEPENDENCIES:
+    PlaceholderAPI: false
+  SOUNDS:
+    PERMISSIONS: 'IRONGOLEM_DEATH; 10.0f; 10.0f'
+    COMMAND_RELOAD: 'EXPLODE; 10.0f; 10.0f'
+    USE_COMMANDS: 'EXPLODE; 10.0f; 10.0f'
+    JUMP_ACTIVATED: 'BAT_TAKEOFF; 1.0f; 1.0f'
+    JUMP_DISABLED: 'GHAST_SCREAM2; 1.0f; 1.0f'
+  FIREWORKS:
+    ENABLED: true
+    COLORS:
+      - 'YELLOW'
+      - 'WHITE'
+      - 'AQUA'
+      - 'BLUE'
+      - 'FUCHSIA'
+      - 'GRAY'
+      - 'MAROON'
+      - 'NAVY'
+      - 'OLIVE'
+      - 'ORANGE'
+      - 'PURPLE'
+      - 'RED'
+      - 'TEAL'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
