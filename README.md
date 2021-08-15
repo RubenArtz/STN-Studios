@@ -5,5 +5,9 @@ This is where the latest dependencies of my plugins were downloaded.
 Thanks to Crypto Morin - https://github.com/CryptoMorin
 Thanks to Exceptionflug - https://github.com/Exceptionflug
 Thanks to Austin Keener - https://github.com/DV8FromTheWorld
+Thanks to DiscordSRV - https://github.com/DiscordSRV
+
+Thanks to all of them, it is possible to continue working on new updates.
+Spigot Link: https://www.spigotmc.org/resources/authors/471800/
 
 
