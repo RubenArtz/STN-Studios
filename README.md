@@ -1,2 +1,9 @@
-![1500x500](https://user-images.githubusercontent.com/49426855/129484479-58426be2-c96d-49e0-b94a-66ee2754bdac.png)
+![STNStudios](https://user-images.githubusercontent.com/49426855/129484488-1853c413-3558-484f-af6b-484d4c0baad7.png)
+
+This is where the latest dependencies of my plugins were downloaded.
+
+Thanks to Crypto Morin - https://github.com/CryptoMorin
+Thanks to Exceptionflug - https://github.com/Exceptionflug
+Thanks to Austin Keener - https://github.com/DV8FromTheWorld
+
 
