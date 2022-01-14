@@ -6,6 +6,7 @@ This is where the latest dependencies of my plugins were downloaded.
 * Thanks to https://github.com/Exceptionflug
 * Thanks to https://github.com/DV8FromTheWorld
 * Thanks to https://github.com/DiscordSRV
+* Thanks to https://github.com/PlaceholderAPI
 * Thanks to https://gitlab.com/ajg0702
 
 Thanks to all of them, it is possible to continue working on new updates.
