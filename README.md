@@ -1,4 +1,4 @@
-![STNStudios](https://user-images.githubusercontent.com/49426855/129484488-1853c413-3558-484f-af6b-484d4c0baad7.png)
+![STNStudios](https://i.imgur.com/PKvBFTC.png)
 
 This is where the latest dependencies of my plugins were downloaded.
 
