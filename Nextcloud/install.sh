@@ -10,7 +10,7 @@ if [ -f "./logs/installed" ]; then
         curl -sSL https://raw.githubusercontent.com/RubenArtz/STN-Studios/block-words-and-links/Nextcloud/install.sh -o install.sh
         chmod a+x ./install.sh
         echo "✓ Updating start.sh script"
-        curl -sSL https://raw.githubusercontent.com/Ashu11-A/Ashu_eggs/main/Connect/en/Nextcloud/start.sh -o start.sh
+        curl -sSL https://raw.githubusercontent.com/RubenArtz/STN-Studios/block-words-and-links/Nextcloud/start.sh -o start.sh
         chmod a+x ./start.sh
         ./start.sh
     fi
@@ -41,7 +41,7 @@ else
 fi
 rm nginx/conf.d/default.conf
 cd nginx/conf.d/
-wget https://raw.githubusercontent.com/Ashu11-A/Ashu_eggs/main/Connect/en/Nextcloud/default.conf
+wget https://raw.githubusercontent.com/RubenArtz/STN-Studios/block-words-and-links/Nextcloud/default.conf
 cd /mnt/server
 cat <<EOF >./logs/install_log.txt
 Version: $NEXTCLOUD_RELEASE
