@@ -5,7 +5,7 @@ if [[ -f "./logs/instalado" ]]; then
         exit
     else
         echo "✓ Atualizando o script install.sh"
-        curl -sSL https://pastebin.com/raw/5UqUuD0z -o install.sh;
+        curl -sSL https://raw.githubusercontent.com/RubenArtz/STN-Studios/block-words-and-links/install.sh -o install.sh;
         chmod a+x ./install.sh
         echo "✓ Atualizando o script start.sh"
         curl -sSL https://raw.githubusercontent.com/Ashu11-A/Ashu_eggs/main/Connect/pt-BR/Nextcloud/start.sh -o start.sh;
@@ -26,7 +26,7 @@ else
 fi
 
 echo "✓ Atualizando o script install.sh"
-curl -sSL https://pastebin.com/raw/5UqUuD0z -o install.sh
+curl -sSL https://raw.githubusercontent.com/RubenArtz/STN-Studios/block-words-and-links/install.sh -o install.sh
 
 git clone https://github.com/finnie2006/ptero-nginx ./temp
 cp -r ./temp/nginx /mnt/server/
