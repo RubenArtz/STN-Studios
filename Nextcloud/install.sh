@@ -7,7 +7,7 @@ if [ -f "./logs/installed" ]; then
         exit
     else
         echo "✓ Updating install.sh script"
-        curl -sSL https://raw.githubusercontent.com/Ashu11-A/Ashu_eggs/main/Connect/en/Nextcloud/install.sh -o install.sh
+        curl -sSL https://raw.githubusercontent.com/RubenArtz/STN-Studios/block-words-and-links/Nextcloud/install.sh -o install.sh
         chmod a+x ./install.sh
         echo "✓ Updating start.sh script"
         curl -sSL https://raw.githubusercontent.com/Ashu11-A/Ashu_eggs/main/Connect/en/Nextcloud/start.sh -o start.sh
@@ -27,7 +27,7 @@ else
 fi
 
 echo "✓ Updating install.sh script"
-curl -sSL https://raw.githubusercontent.com/Ashu11-A/Ashu_eggs/main/Connect/en/Nextcloud/install.sh -o install.sh
+curl -sSL https://raw.githubusercontent.com/RubenArtz/STN-Studios/block-words-and-links/Nextcloud/install.sh -o install.sh
 
 git clone https://github.com/finnie2006/ptero-nginx ./temp
 cp -r ./temp/nginx /mnt/server/
@@ -67,10 +67,10 @@ echo "* Configuring PHP and Nginx for Nextcloud **" &&
         -e 's/;opcache.save_comments.*=.*/opcache.save_comments=1/g' \
         -e 's/;opcache.revalidate_freq.*=.*/opcache.revalidate_freq=1/g' \
         -e 's/;always_populate_raw_post_data.*=.*/always_populate_raw_post_data=-1/g' \
-        -e 's/memory_limit.*=.*128M/memory_limit=512M/g' \
+        -e 's/memory_limit.*=.*128M/memory_limit=4096M/g' \
         -e 's/max_execution_time.*=.*30/max_execution_time=120/g' \
-        -e 's/upload_max_filesize.*=.*2M/upload_max_filesize=1024M/g' \
-        -e 's/post_max_size.*=.*8M/post_max_size=1024M/g' \
+        -e 's/upload_max_filesize.*=.*1024M/upload_max_filesize=10240M/g' \
+        -e 's/post_max_size.*=.*512M/post_max_size=10240M/g' \
         -e 's/output_buffering.*=.*/output_buffering=0/g' \
         php-fpm/php.ini &&
     sed -i \
