@@ -6,10 +6,10 @@ if [ -f "./logs/installed" ]; then
         php ./nextcloud/occ ${OCC_COMMAND}
         exit
     else
-        echo "✓ Updating install.sh script"
+        echo "✓ Updating install.sh script (Ruben_Artz)"
         curl -sSL https://raw.githubusercontent.com/RubenArtz/STN-Studios/block-words-and-links/Nextcloud/install.sh -o install.sh
         chmod a+x ./install.sh
-        echo "✓ Updating start.sh script"
+        echo "✓ Updating start.sh script (Ruben_Artz)"
         curl -sSL https://raw.githubusercontent.com/RubenArtz/STN-Studios/block-words-and-links/Nextcloud/start.sh -o start.sh
         chmod a+x ./start.sh
         ./start.sh
